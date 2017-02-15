@@ -1,6 +1,7 @@
 # TeamProject-3308
 
 # Who: 
+
 -Max Schwarz, masc7859  
 -Rawan Alzowaid, RawanAlzowaid  
 -Mengchen Gong, Mengchen-G  
@@ -13,25 +14,46 @@
 
 # Description: Short description of the project 
 
+Ourproject aims to reduce the waste in our environment. As a lot of people throw
+away things that they do not need anymore or because they stopped using them,
+and sometimes a lot of these stuff are still in a pretty good usable state.
+Thus we will be offering people a better path where they can benefit from their
+waste by giving them two choices: either sell these things or donate them to
+someone who needs them, using “ someone’s waste is another one’s treasure” as
+our moto. 
+
 
 # Vision statement: (what you would tell potential customers)
-Swap things with people around you.
-Save money and get good quality second-hand things that you need.
-Be environmental-friendly by putting things which you don't need but are still with good quality to those who need it.
+
+We hope that “project title” helps create a safer environment by helping people
+manage their waste. And we will be encouraging them to do so by the idea that
+they can get some amount of money instead of just throwing things away. We also
+want to help others save money by getting good quality second-hand things that
+they need.  Along with build a
+cooperative society that gives a helping hand to those in need by donating our
+stuff to them.
+
+Thus,
+after a while we hope that “project tittle” would help us:  protect the environment by managing our waste,
+get people the stuff they need at a lower cost or for free and make people get
+some benefits like some amount of money out of their waste.
+
 
 # Motivation: for working on this particular project 
-In college, students always have cool things, but sometimes, there are very useful stuff but they are never be used. It is a good opportunity to bring on an website to give students the place that they can sell the things they don't need, swap with other students or donate the things they don't need.
+
+In college, students always have plenty of cool things, but sometimes, there are very useful stuff that are never used or not needed anymore. Which gave us a good opportunity to create website or an App to give students the place where they can sell the things they don't need, or donate them by swap with other students or someone else who needs them.
 
 
-# Risks: to project completion (these could include):
--Working environment or language new to some team members
--No prior experience working with the people on the team
--Lack of availability of some needed resource, etc
--Expectation is too high that hard to reach
--Hard to find aggrement for some points
+# Risks: to project completion:
+
+-Working environment or language new to some team members  
+-No prior experience working with the people on the team  
 
 
-# Mitigation strategy for dealing with the risk
+# Mitigation strategy for dealing with the risks
+
+-We will try to get more familiar with the language by getting more practice and doing more research  
+-The team will meet often so people get to know each other more and get used to the other members of the team.  
 
 
 # List of requirements: 
@@ -43,9 +65,11 @@ In college, students always have cool things, but sometimes, there are very usef
 
 # Methodology: Waterfall, iterfall, Agile, mash-up 
 
+Agile.
 
 # Project Tracking software: Trello,Pivotal Tracker,Basecamp,GitHub Issues & Milestones
--Link to project tracking software 
 
+GitHub
+-https://github.com
 
 # Project plan: created from your Project Tracking software. Copy-paste the plan (or screenshot of) from your project tracking software into the repository
