@@ -15,15 +15,20 @@
 
 
 # Vision statement: (what you would tell potential customers)
-
+Swap things with people around you.
+Saving money and get good quality second-hand things you need.
+Be environmental-friendly that putting thing you don't need but still with good quality
 
 # Motivation: for working on this particular project 
+In college, students always have cool things, but sometimes, there are stuffs that very useful but will never be used. It is a good opportunity to bring on an website to give students the place that they can sell the things they don't need, swap with other students or donate the things they don't need.
 
 
 # Risks: to project completion (these could include):
 -Working environment or language new to some team members
 -No prior experience working with the people on the team
 -Lack of availability of some needed resource, etc
+-Expectation is too high that hard to reach
+-Hard to find aggrement for some points
 
 
 # Mitigation strategy for dealing with the risk
@@ -34,6 +39,7 @@
 
 *[optional] you can add priority (Critical, High, Med, Low, Nice-to-have), you can add topic/area (e.g., Login, Profile, DB, etc.), you can add user type (e.g., Admin, end user, potential customer,…)
 
+-As a student, I want to be able to exchange equal-quality things so that I can save money.
 
 # Methodology: Waterfall, iterfall, Agile, mash-up 
 
