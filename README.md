@@ -1,4 +1,4 @@
-# TeamProject-3308
+# TeamProject-3308 Part1 - Proposal, repository, project tracker, requirements
 
 # Who: 
 
@@ -11,7 +11,7 @@
 
 # Title: OneMan's Treasure
 
-# Description: Short description of the project 
+# Description:  
 
 Our project aims to reduce the waste in our environment. As a lot of people throw
 away things that they do not need anymore or because they stopped using them,
@@ -20,7 +20,7 @@ Thus we will be offering people a better path where they can benefit from their
 waste by giving them two choices: either get rid of it quickly and easily or donate it to
 someone who needs them, using “one man's trash is another man's treasure” as
 our moto. 
-(Considering: added swap choice that users will be able to swap their waste stuff from other people's waste that they need)
+(Possibily: added swap choice that users will be able to swap their waste stuff from other people's waste that they need)
 
 
 # Vision statement: (what you would tell potential customers)
@@ -39,17 +39,17 @@ get people the stuff they need/want at a lower cost (swap with other users) or f
 
 # Motivation: for working on this particular project 
 
-In college, students always have plenty of cool things, but sometimes, there are very useful stuff that are never used or not needed anymore. Which gave us a good opportunity to create website or an App to give students the place where they can sell the things they don't need, or donate them (swapping them)to other students or someone else who needs them.
+In college, in one hand, students always have plenty of cool things, but sometimes, there are very useful stuff that are never used or not needed anymore. Which gave us a good opportunity to create website or an App to give students the place where they can sell the things they don't need, or donate them (swapping them)to other students or someone else who needs them. One the other hand, new things are expensive that for university students, we really want to save some money for other things. It will be so great to have such convienent resource to access.
 
-Basically, this project will have three major functions, which are donating/, second-hand selling and swaping, with the utility of map, gps, facial recognition methods.
+Basically, this project will have three major functions, which are donating/, second-hand selling and swaping, with the utility of map, gps, facial recognition methods (if it is allowed).
 
 
-# Risks: to project completion:
+# Risks: for project completion:
 
 -Working environment or language new to some team members  
 -No prior experience working with the people on the team  
 -Limited/No IOS development
--To much want to be complished but hard to finish all of them
+-To much want to achieve but hard to finish all of them
 
 
 # Mitigation strategy for dealing with the risks
