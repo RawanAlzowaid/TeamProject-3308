@@ -33,14 +33,11 @@ want to help others save money by getting good quality second-hand things that
 they need.  Along with build a cooperative society that gives a helping hand to those in need by donating our
 stuff to them.
 
-Thus,
-We hope that “project tittle” would help us: protect the environment by managing our waste / minimizing 
-human's impact on environment,
-get people the stuff they need/want at a lower cost (swap with other users) or for free and make the 
-community more unified on reducing environmental impact and on financial responsability.
+Thus, we hope that “project title” would help us: protect the environment by managing our waste / minimizing 
+human's impact on environment, get people the stuff they need/want at a lower cost (swap with other users) or for free and make the community more unified on reducing environmental impact and on financial responsibility.
 
 
-# Motivation: for working on this particular project 
+# Motivation: (for working on this particular project) 
 
 In college, in one hand, students always have plenty of cool things, but sometimes, there are very useful
 stuff that are never used or not needed anymore. Which gave us a good opportunity to create website or
@@ -53,7 +50,7 @@ Basically, this project will have three major functions, which are donating/, se
 and swaping, with the utility of map, gps, facial recognition methods (if it is allowed).
 
 
-# Risks: for project completion:
+# Risks: (for project completion)
 
 -Working environment or language new to some team members  
 -No prior experience working with the people on the team  
