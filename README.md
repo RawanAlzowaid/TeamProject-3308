@@ -9,7 +9,7 @@
 -Obaid Alqahtani, Obal3588  
 
 
-# Title: Iswap
+# Title: OneMan's Treasure
 
 # Description: Short description of the project 
 
@@ -24,7 +24,7 @@ our moto.
 
 # Vision statement: (what you would tell potential customers)
 
-We hope that “project title” helps create a safer environment by helping people
+We hope that OneMan's Treasure helps create a safer environment by helping people
 manage their waste. And we will be encouraging them to do so by the idea that
 they can get some amount of money instead of just throwing things away. We also
 want to help others save money by getting good quality second-hand things that
@@ -59,9 +59,12 @@ In college, students always have plenty of cool things, but sometimes, there are
 
 *[optional] you can add priority (Critical, High, Med, Low, Nice-to-have), you can add topic/area (e.g., Login, Profile, DB, etc.), you can add user type (e.g., Admin, end user, potential customer,…)  
 
-1)As a student, I want to be able to exchange equal-quality things so that I can save money.  
-2)As a seller, I want to be able to show my location so that people who are intrested in buying can see where I am.  
-3)As a buyer, I want to be able to see the things that are up for sale sp that I can see if what the seller is offering fits the description.   
+01)As a student, I want to be able to find needed school supplies so that I can save money.  
+02)As a busy parent, I want to be able to show my location so that people who are intrested in the items can see where I am and I dont have to take time to drive somewhere to drop it off.  
+03)As a mover, I want to be able to get rid of large items like furniture so that I dont have to pay the large fee trash companies charge.
+04)As an environmentally concious member of the community, I would like to have someone reuse my items so I am not contributing to landfills and ocean trash problems.
+05)As a small business owner that refurbishes items / resells them, I want to be connected to people who dont have time/effort to post things to ebay or craigslist, so that I can have more previously overlooked items for my store.
+06)As a bored bus-rider, I want something to scroll through to pass the time that maybe I can benefit from if I happen to find something cool.
 
 # Methodology: Waterfall, iterfall, Agile, mash-up 
 
