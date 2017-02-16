@@ -17,8 +17,8 @@ Our project aims to reduce the waste in our environment. As a lot of people thro
 away things that they do not need anymore or because they stopped using them,
 and sometimes a lot of these stuff are still in a pretty good usable state.
 Thus we will be offering people a better path where they can benefit from their
-waste by giving them two choices: either sell these things or donate them to
-someone who needs them, using “ someone’s waste is another one’s treasure” as
+waste by giving them two choices: either get rid of it quickly and easily or donate it to
+someone who needs them, using “one man's trash is another man's treasure” as
 our moto. 
 
 
