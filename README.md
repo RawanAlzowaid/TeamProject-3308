@@ -33,7 +33,7 @@ want to help others save money by getting good quality second-hand things that
 they need.  Along with build a cooperative society that gives a helping hand to those in need by donating our
 stuff to them.
 
-Thus, we hope that “project title” would help us: protect the environment by managing our waste / minimizing 
+Thus, we hope that OneMan's Treasure would help us: protect the environment by managing our waste / minimizing 
 human's impact on environment, get people the stuff they need/want at a lower cost (swap with other users) or for free and make the community more unified on reducing environmental impact and on financial responsibility.
 
 
