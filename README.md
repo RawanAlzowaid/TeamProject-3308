@@ -32,9 +32,8 @@ they need.  Along with build a cooperative society that gives a helping hand to
 stuff to them.
 
 Thus,
-after a while we hope that “project tittle” would help us:  protect the environment by managing our waste,
-get people the stuff they need at a lower cost or for free and make people get
-some benefits like some amount of money out of their waste.
+We hope that “project tittle” would help us: protect the environment by managing our waste / minimizing human's impact on environment,
+get people the stuff they need/want at a lower cost or for free and make the community more unified on reducing environmental impact and on financial responsability.
 
 
 # Motivation: for working on this particular project 
@@ -46,6 +45,7 @@ In college, students always have plenty of cool things, but sometimes, there are
 
 -Working environment or language new to some team members  
 -No prior experience working with the people on the team  
+-Limited/No IOS development
 
 
 # Mitigation strategy for dealing with the risks
