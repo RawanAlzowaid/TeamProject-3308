@@ -70,17 +70,17 @@ and swaping, with the utility of map, gps, facial recognition methods (if it is 
 -6 user stories with unique ID numbers, written in the format “As a [role], I want to [do X] so that I can [benefit with Y]” , with a size where the size can be story points or time estimate. 
 *[optional] you can add priority (Critical, High, Med, Low, Nice-to-have), you can add topic/area (e.g., Login, Profile, DB, etc.), you can add user type (e.g., Admin, end user, potential customer,…)  
 
-->01)As a student, I want to be able to find needed school supplies so that I can save money.  
+->01)As a student, I want to be able to find needed school supplies so that I can save money. Points: 5  
 
-->02)As a busy parent, I want to be able to show my location so that people who are intrested in the items can see where I am and I dont have to take time to drive somewhere to drop it off.  
+->02)As a busy parent, I want to be able to show my location so that people who are intrested in the items can see where I am and I dont have to take time to drive somewhere to drop it off. Points: 7
 
-->03)As a mover, I want to be able to get rid of large items like furniture so that I dont have to pay the large fee trash companies charge.
+->03)As a mover, I want to be able to get rid of large items like furniture so that I dont have to pay the large fee trash companies charge. Points: 5
 
-->04)As an environmentally concious member of the community, I would like to have someone reuse my items so I am not contributing to landfills and ocean trash problems.
+->04)As an environmentally concious member of the community, I would like to have someone reuse my items so I am not contributing to landfills and ocean trash problems. Points: 5
 
-->05)As a small business owner that refurbishes items / resells them, I want to be connected to people who dont have time/effort to post things to ebay or craigslist, so that I can have more previously overlooked items for my store.
+->05)As a small business owner that refurbishes items / resells them, I want to be connected to people who dont have time/effort to post things to ebay or craigslist, so that I can have more previously overlooked items for my store. Points: 3
 
-->06)As a bored bus-rider, I want something to scroll through to pass the time that maybe I can benefit from if I happen to find something cool.
+->06)As a bored bus-rider, I want something to scroll through to pass the time that maybe I can benefit from if I happen to find something cool. Points: 8
 
 # Methodology: Waterfall, iterfall, Agile, mash-up 
 
