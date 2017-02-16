@@ -55,6 +55,7 @@ and swaping, with the utility of map, gps, facial recognition methods (if it is 
 -Working environment or language new to some team members  
 -No prior experience working with the people on the team  
 -Limited/No IOS development, stucking on some sepecific stage
+- Limited access to devices to test on. (Iphones not of the latest model/version/software patch)
 -To much want to achieve but hard to finish all of them
 
 
