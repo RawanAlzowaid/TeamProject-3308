@@ -62,7 +62,7 @@ and swapping, with the utility of map, gps, facial recognition methods (if it is
 # Mitigation strategy for dealing with the risks
 
 -We will try to get more familiar with the language by getting more practice and doing more research  
--The team will meet often so people get to know each other more and get used to the other members of the team.
+-The team will meet often so people get to know each other more and get used to the other members of the team.  
 -We will to look for more resources and get help from more experienced people. 
 
 
