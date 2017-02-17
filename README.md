@@ -88,7 +88,7 @@ Agile.
 
 # Project Tracking software: Trello,Pivotal Tracker,Basecamp,GitHub Issues & Milestones
 
-GitHub  
+We will use GitHub's tracking features, i.e. Issues and Milestones
 -https://github.com
 
 # Project plan: created from your Project Tracking software. Copy-paste the plan (or screenshot of) from your project tracking software into the repository
