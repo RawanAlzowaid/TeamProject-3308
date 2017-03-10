@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FBD1E68EB39006CE4C1 /* main.m */; };
+		FC2B0FC11E68EB39006CE4C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FC01E68EB39006CE4C1 /* AppDelegate.m */; };
+		FC2B0FC41E68EB39006CE4C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FC31E68EB39006CE4C1 /* ViewController.m */; };
+		FC2B0FC71E68EB39006CE4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FC51E68EB39006CE4C1 /* Main.storyboard */; };
+		FC2B0FC91E68EB39006CE4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FC81E68EB39006CE4C1 /* Assets.xcassets */; };
+		FC2B0FCC1E68EB39006CE4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FCA1E68EB39006CE4C1 /* LaunchScreen.storyboard */; };
+		FC2B0FD71E68EB3A006CE4C1 /* OneMan_s_TreasureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FD61E68EB3A006CE4C1 /* OneMan_s_TreasureTests.m */; };
+		FC2B0FE21E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FE11E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m */; };
+		FC2B0FF21E68FF19006CE4C1 /* Background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FF11E68FF19006CE4C1 /* Background1.jpg */; };
+		FC2B0FF41E68FF68006CE4C1 /* Picture.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FF31E68FF68006CE4C1 /* Picture.png */; };
+		FC2B0FF61E6901F4006CE4C1 /* Picture1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FF51E6901F4006CE4C1 /* Picture1.png */; };
+		FC2B0FF81E690347006CE4C1 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FF71E690347006CE4C1 /* Back.png */; };
+		FC2B0FFC1E690784006CE4C1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FFB1E690784006CE4C1 /* logo.png */; };
+		FC2B0FFF1E690A94006CE4C1 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FFE1E690A94006CE4C1 /* LogInViewController.m */; };
+		FC2B10051E690B66006CE4C1 /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B10041E690B66006CE4C1 /* SignUp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2B0FD31E68EB3A006CE4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2B0FB11E68EB39006CE4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2B0FB81E68EB39006CE4C1;
+			remoteInfo = "OneMan‘s Treasure";
+		};
+		FC2B0FDE1E68EB3A006CE4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2B0FB11E68EB39006CE4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2B0FB81E68EB39006CE4C1;
+			remoteInfo = "OneMan‘s Treasure";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC2B0FB91E68EB39006CE4C1 /* OneMan‘s Treasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneMan‘s Treasure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2B0FBD1E68EB39006CE4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC2B0FBF1E68EB39006CE4C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC2B0FC01E68EB39006CE4C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC2B0FC21E68EB39006CE4C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC2B0FC31E68EB39006CE4C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC2B0FC61E68EB39006CE4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2B0FC81E68EB39006CE4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2B0FCB1E68EB39006CE4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2B0FCD1E68EB39006CE4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2B0FD21E68EB3A006CE4C1 /* OneMan‘s TreasureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneMan‘s TreasureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2B0FD61E68EB3A006CE4C1 /* OneMan_s_TreasureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneMan_s_TreasureTests.m; sourceTree = "<group>"; };
+		FC2B0FD81E68EB3A006CE4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2B0FDD1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneMan‘s TreasureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2B0FE11E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneMan_s_TreasureUITests.m; sourceTree = "<group>"; };
+		FC2B0FE31E68EB3A006CE4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2B0FF11E68FF19006CE4C1 /* Background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background1.jpg; sourceTree = "<group>"; };
+		FC2B0FF31E68FF68006CE4C1 /* Picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Picture.png; sourceTree = "<group>"; };
+		FC2B0FF51E6901F4006CE4C1 /* Picture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Picture1.png; sourceTree = "<group>"; };
+		FC2B0FF71E690347006CE4C1 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		FC2B0FFB1E690784006CE4C1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FC2B0FFD1E690A94006CE4C1 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		FC2B0FFE1E690A94006CE4C1 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		FC2B10031E690B66006CE4C1 /* SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUp.h; path = ../SignUp.h; sourceTree = "<group>"; };
+		FC2B10041E690B66006CE4C1 /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUp.m; path = ../SignUp.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2B0FB61E68EB39006CE4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2B0FCF1E68EB3A006CE4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2B0FDA1E68EB3A006CE4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2B0FB01E68EB39006CE4C1 = {
+			isa = PBXGroup;
+			children = (
+				FC2B0FBB1E68EB39006CE4C1 /* OneMan‘s Treasure */,
+				FC2B0FD51E68EB3A006CE4C1 /* OneMan‘s TreasureTests */,
+				FC2B0FE01E68EB3A006CE4C1 /* OneMan‘s TreasureUITests */,
+				FC2B0FBA1E68EB39006CE4C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2B0FBA1E68EB39006CE4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2B0FB91E68EB39006CE4C1 /* OneMan‘s Treasure.app */,
+				FC2B0FD21E68EB3A006CE4C1 /* OneMan‘s TreasureTests.xctest */,
+				FC2B0FDD1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2B0FBB1E68EB39006CE4C1 /* OneMan‘s Treasure */ = {
+			isa = PBXGroup;
+			children = (
+				FC2B0FBF1E68EB39006CE4C1 /* AppDelegate.h */,
+				FC2B0FC01E68EB39006CE4C1 /* AppDelegate.m */,
+				FC2B0FC21E68EB39006CE4C1 /* ViewController.h */,
+				FC2B0FC31E68EB39006CE4C1 /* ViewController.m */,
+				FC2B0FC51E68EB39006CE4C1 /* Main.storyboard */,
+				FC2B0FC81E68EB39006CE4C1 /* Assets.xcassets */,
+				FC2B0FCA1E68EB39006CE4C1 /* LaunchScreen.storyboard */,
+				FC2B0FCD1E68EB39006CE4C1 /* Info.plist */,
+				FC2B0FBC1E68EB39006CE4C1 /* Supporting Files */,
+				FC2B0FFD1E690A94006CE4C1 /* LogInViewController.h */,
+				FC2B0FFE1E690A94006CE4C1 /* LogInViewController.m */,
+				FC2B10031E690B66006CE4C1 /* SignUp.h */,
+				FC2B10041E690B66006CE4C1 /* SignUp.m */,
+			);
+			path = "OneMan‘s Treasure";
+			sourceTree = "<group>";
+		};
+		FC2B0FBC1E68EB39006CE4C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC2B0FFB1E690784006CE4C1 /* logo.png */,
+				FC2B0FF71E690347006CE4C1 /* Back.png */,
+				FC2B0FF31E68FF68006CE4C1 /* Picture.png */,
+				FC2B0FF51E6901F4006CE4C1 /* Picture1.png */,
+				FC2B0FF11E68FF19006CE4C1 /* Background1.jpg */,
+				FC2B0FBD1E68EB39006CE4C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC2B0FD51E68EB3A006CE4C1 /* OneMan‘s TreasureTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2B0FD61E68EB3A006CE4C1 /* OneMan_s_TreasureTests.m */,
+				FC2B0FD81E68EB3A006CE4C1 /* Info.plist */,
+			);
+			path = "OneMan‘s TreasureTests";
+			sourceTree = "<group>";
+		};
+		FC2B0FE01E68EB3A006CE4C1 /* OneMan‘s TreasureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2B0FE11E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m */,
+				FC2B0FE31E68EB3A006CE4C1 /* Info.plist */,
+			);
+			path = "OneMan‘s TreasureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2B0FE61E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s Treasure" */;
+			buildPhases = (
+				FC2B0FB51E68EB39006CE4C1 /* Sources */,
+				FC2B0FB61E68EB39006CE4C1 /* Frameworks */,
+				FC2B0FB71E68EB39006CE4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneMan‘s Treasure";
+			productName = "OneMan‘s Treasure";
+			productReference = FC2B0FB91E68EB39006CE4C1 /* OneMan‘s Treasure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC2B0FD11E68EB3A006CE4C1 /* OneMan‘s TreasureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2B0FE91E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s TreasureTests" */;
+			buildPhases = (
+				FC2B0FCE1E68EB3A006CE4C1 /* Sources */,
+				FC2B0FCF1E68EB3A006CE4C1 /* Frameworks */,
+				FC2B0FD01E68EB3A006CE4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2B0FD41E68EB3A006CE4C1 /* PBXTargetDependency */,
+			);
+			name = "OneMan‘s TreasureTests";
+			productName = "OneMan‘s TreasureTests";
+			productReference = FC2B0FD21E68EB3A006CE4C1 /* OneMan‘s TreasureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC2B0FDC1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2B0FEC1E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s TreasureUITests" */;
+			buildPhases = (
+				FC2B0FD91E68EB3A006CE4C1 /* Sources */,
+				FC2B0FDA1E68EB3A006CE4C1 /* Frameworks */,
+				FC2B0FDB1E68EB3A006CE4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2B0FDF1E68EB3A006CE4C1 /* PBXTargetDependency */,
+			);
+			name = "OneMan‘s TreasureUITests";
+			productName = "OneMan‘s TreasureUITests";
+			productReference = FC2B0FDD1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2B0FB11E68EB39006CE4C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "龚梦晨";
+				TargetAttributes = {
+					FC2B0FB81E68EB39006CE4C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9RBFBK3B3S;
+						ProvisioningStyle = Automatic;
+					};
+					FC2B0FD11E68EB3A006CE4C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9RBFBK3B3S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC2B0FB81E68EB39006CE4C1;
+					};
+					FC2B0FDC1E68EB3A006CE4C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9RBFBK3B3S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC2B0FB81E68EB39006CE4C1;
+					};
+				};
+			};
+			buildConfigurationList = FC2B0FB41E68EB39006CE4C1 /* Build configuration list for PBXProject "OneMan‘s Treasure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2B0FB01E68EB39006CE4C1;
+			productRefGroup = FC2B0FBA1E68EB39006CE4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */,
+				FC2B0FD11E68EB3A006CE4C1 /* OneMan‘s TreasureTests */,
+				FC2B0FDC1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2B0FB71E68EB39006CE4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2B0FCC1E68EB39006CE4C1 /* LaunchScreen.storyboard in Resources */,
+				FC2B0FC91E68EB39006CE4C1 /* Assets.xcassets in Resources */,
+				FC2B0FF41E68FF68006CE4C1 /* Picture.png in Resources */,
+				FC2B0FF81E690347006CE4C1 /* Back.png in Resources */,
+				FC2B0FFC1E690784006CE4C1 /* logo.png in Resources */,
+				FC2B0FC71E68EB39006CE4C1 /* Main.storyboard in Resources */,
+				FC2B0FF21E68FF19006CE4C1 /* Background1.jpg in Resources */,
+				FC2B0FF61E6901F4006CE4C1 /* Picture1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2B0FD01E68EB3A006CE4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2B0FDB1E68EB3A006CE4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2B0FB51E68EB39006CE4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2B0FFF1E690A94006CE4C1 /* LogInViewController.m in Sources */,
+				FC2B0FC41E68EB39006CE4C1 /* ViewController.m in Sources */,
+				FC2B10051E690B66006CE4C1 /* SignUp.m in Sources */,
+				FC2B0FC11E68EB39006CE4C1 /* AppDelegate.m in Sources */,
+				FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2B0FCE1E68EB3A006CE4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2B0FD71E68EB3A006CE4C1 /* OneMan_s_TreasureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2B0FD91E68EB3A006CE4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2B0FE21E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC2B0FD41E68EB3A006CE4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */;
+			targetProxy = FC2B0FD31E68EB3A006CE4C1 /* PBXContainerItemProxy */;
+		};
+		FC2B0FDF1E68EB3A006CE4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */;
+			targetProxy = FC2B0FDE1E68EB3A006CE4C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2B0FC51E68EB39006CE4C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2B0FC61E68EB39006CE4C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2B0FCA1E68EB39006CE4C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2B0FCB1E68EB39006CE4C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2B0FE41E68EB3A006CE4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC2B0FE51E68EB3A006CE4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2B0FE71E68EB3A006CE4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "OneMan‘s Treasure/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-Treasure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC2B0FE81E68EB3A006CE4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "OneMan‘s Treasure/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-Treasure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC2B0FEA1E68EB3A006CE4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "OneMan‘s TreasureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-TreasureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMan‘s Treasure.app/OneMan‘s Treasure";
+			};
+			name = Debug;
+		};
+		FC2B0FEB1E68EB3A006CE4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "OneMan‘s TreasureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-TreasureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMan‘s Treasure.app/OneMan‘s Treasure";
+			};
+			name = Release;
+		};
+		FC2B0FED1E68EB3A006CE4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "OneMan‘s TreasureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-TreasureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OneMan‘s Treasure";
+			};
+			name = Debug;
+		};
+		FC2B0FEE1E68EB3A006CE4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "OneMan‘s TreasureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-TreasureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OneMan‘s Treasure";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2B0FB41E68EB39006CE4C1 /* Build configuration list for PBXProject "OneMan‘s Treasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2B0FE41E68EB3A006CE4C1 /* Debug */,
+				FC2B0FE51E68EB3A006CE4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2B0FE61E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s Treasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2B0FE71E68EB3A006CE4C1 /* Debug */,
+				FC2B0FE81E68EB3A006CE4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC2B0FE91E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s TreasureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2B0FEA1E68EB3A006CE4C1 /* Debug */,
+				FC2B0FEB1E68EB3A006CE4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC2B0FEC1E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s TreasureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2B0FED1E68EB3A006CE4C1 /* Debug */,
+				FC2B0FEE1E68EB3A006CE4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2B0FB11E68EB39006CE4C1 /* Project object */;
+}
