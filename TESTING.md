@@ -12,6 +12,8 @@ We hope that WeShare helps create a safer environment by helping people manage t
 Thus, we hope that WeShare would help us: protect the environment by managing our waste / minimizing human's impact on the environment, get people the stuff they need/want at a lower cost (like by swapping with other users) or for free and make the community more unified on reducing environmental impact and on financial responsibility.
 
 Automated Tests: ????????????
+Try to ask that if the build method in Xcode count as testing, if we screenshot the code page after build. 
+Also, xcode automatically contain a test code itself, how can we use that or modify that some way to let it be the automate test file.
 
 User Acceptance:
 NO:1 --------------------- Max, please try to do this. Thank you! (below is the example I copied from our course website)?????????????????
