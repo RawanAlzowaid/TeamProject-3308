@@ -16,13 +16,13 @@ Try to ask that if the build method in Xcode count as testing, if we screenshot 
 Also, xcode automatically contain a test code itself, how can we use that or modify that some way to let it be the automate test file.
 
 User Acceptance:
-NO:1 --------------------- Max, please try to do this. Thank you! (below is the example I copied from our course website)?????????????????
+NO:1
 Use case name
     Verify registration with login and password
 Description
     Test the account registration and login to user protected space in app
 Pre-conditions
-    User has made an account and can access it with username and password
+    User has downloaded the app and is on the launch page
 Test steps
     1. Navigate to register page
     2. Provide username
@@ -38,6 +38,7 @@ Notes
     N/A
 Post-conditions
     User is added in database and thier profile information in database is validated.
+    
 NO:2 
 Use case name
     Finding supplies
@@ -60,29 +61,32 @@ Notes
     Need to find the keywords in users' searching words
 Post-conditions
     User is be able to seach different items they want easily
-NO:3 ????????????????????
+    
+NO:3 
 Use case name
-    Verify add items to sell
+    Location Access 
 Description
-    Test
+    Test the ability for the app to access location services and to update database with current location.
 Pre-conditions
-    User has 
+    User has successfully logged in to protected space in app  
 Test steps
-    1. 
-    2. 
-    3. 
-    4. 
+    1. User logs in to app
+    2. App automatically updates database with users current location
+    3. If not allowed access to location, ask user for location
+    4. Press find location button
+    5. Verify results are same and database reflects correct location
 Expected result
-    User should be 
+    Correct location is updated in database  
 Actual result
-    User is 
+    App shows: "showing results for (location)" 
 Status (Pass/Fail)
     Pass
 Notes
     N/A
 Post-conditions
-    User is 
-NO:4 ?????????????????????????
+    The account's session location is updated in database
+    
+NO:4
 Use case name
     Verify camera using for attach images
 Description
