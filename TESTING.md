@@ -20,7 +20,7 @@ Automated Tests:
 
 1.Description of test: xcode includes an automation feature called UIAtomation that test drive our applicatin via writting scripts. It estimates how the user would react with our application and shows an editor log which contains log messeges and log types for every test that you write. 
 
-2.Please check the attached screenshots for the test in the repository. Description of screenshots：
+2.Please check the attached screenshots file for the test in the repository ("Test screeshot"). Description of screenshots：
 
 -----Screenshot1: This is the test for the program when we build and run the project at the navigation. The test results got out when we click buttoms, type in informations and do other manipulations.
 
