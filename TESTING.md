@@ -21,7 +21,7 @@ Screenshot1: This is the test for the program when we build and run the project 
 Screenshot2: This is the Debug page after we build and run the project that it shows the status of the project and to show if there is any place we need to change.
 Screenshot3: This is the screenshot of our login page, which contains several functions, like entering email and password, the link to find the password if forgot, link to sign up and go back to the previous page. And we tested everything, which works pretty well.     
 Screenshot4: This is the searching page that help people to find what they want or interest in. It also contain two links which are ‘login’ and ’Sign up’. The proposal is helping people, and make the search more convenience. 
-Screenshot5:
+Screenshot5: This is the ’Sign up’ page which let the new user to create a profile. And you need to input some important information, such like name, email, password, address and such on. And there are two links which are ‘Login’ and ‘Go back’. To help people to log in and go to the previous page.
 
 Screenshot6:
 
