@@ -1,4 +1,4 @@
-Who：  
+Who：  
 -Mengchen Gong  
 -Ziyang Yang  
 -Rawan Alzowaid  
@@ -13,10 +13,10 @@ Thus, we hope that WeShare would help us: protect the environment by managing ou
 
 Automated Tests:  
 1.xcode includes an automation feature called UIAtomation that test drive our applicatin via writting scripts. It estimates how the user would react with our application and shows an editor log which contains log messeges and log types for every test that you write.  
+2.The Screenshots of the test please check the attachments
  
 User Acceptance Tests:
-
-NO:1
+TEST:1
 Use case name
     Verify registration with login and password
 Description
@@ -39,7 +39,7 @@ Notes
 Post-conditions
     User is added in database and thier profile information in database is validated.
     
-NO:2 
+TEST:2 
 Use case name
     Finding supplies
 Description
@@ -62,7 +62,7 @@ Notes
 Post-conditions
     User is be able to seach different items they want easily
     
-NO:3 
+TEST:3 
 Use case name
     Location Access 
 Description
@@ -86,7 +86,7 @@ Notes
 Post-conditions
     The account's session location is updated in database
     
-NO:4
+TEST:4
 Use case name
     Verify camera use in app
 Description
