@@ -11,6 +11,7 @@ Title: WeShare
 
 
 Version:
+
 We hope that WeShare helps create a safer environment by helping people(CU students) manage their waste. And we will be encouraging them to do so by the idea that they can get some amount of money instead of just throwing things away. We also want to help others save money by getting good quality second-hand things that they need. Along with building a cooperative society that gives a helping hand to those in need by donating our stuff to them.
 Thus, we hope that WeShare would help us: protect the environment by managing our waste so that minimizing human's impact on the environment; get people the stuff they need or want at a lower cost (like by swapping with other users or spending few bucks to buy the secondhand, or for free), and make the community more unified on reducing environmental impact and financial responsibility.
 
