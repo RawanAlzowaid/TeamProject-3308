@@ -16,10 +16,10 @@ Automated Tests:
 1.xcode includes an automation feature called UIAtomation that test drive our applicatin via writting scripts. It estimates how the user would react with our application and shows an editor log which contains log messeges and log types for every test that you write.  
 2.Please check the attached screenshots for the test in the repository.
 Description：
-Screenshot1:
-Screenshot2:
+Screenshot1: This is the test for the program when we build and run the project at the navigation. The test results got out when we click buttoms, type in informations and do other manipulations.
+Screenshot2: This is the Debug page after we build and run the project that it shows the status of the project and to show if there is any place we need to change.
 Screenshot3: This is the screenshot of our login page, which contains several functions, like entering email and password, the link to find the password if forgot, link to sign up and go back to the previous page. And we tested everything, which works pretty well.     
-Screenshot4: This is the searching page that helps people to find what they want or interest in. Also contain two links which are 'login' and 'sign up', the proposal is to help people be more convenient to use this app.  
+Screenshot4: This is the searching page that help people to find what they want or interest in.  
 Screenshot5:
 Screenshot6:
 Screenshot7-Screenshot12(except 10):
