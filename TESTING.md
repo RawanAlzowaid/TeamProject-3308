@@ -1,4 +1,4 @@
-Who：
+# Who：
 
 -Mengchen Gong  
 -Ziyang Yang  
@@ -7,40 +7,41 @@ Who：
 -Obaid Alquhtani  
 
 
-Title: WeShare
+# Title: WeShare
 
 
-Version:
+# Version:
 
 We hope that WeShare helps create a safer environment by helping people(CU students) manage their waste. And we will be encouraging them to do so by the idea that they can get some amount of money instead of just throwing things away. We also want to help others save money by getting good quality second-hand things that they need. Along with building a cooperative society that gives a helping hand to those in need by donating our stuff to them.
 Thus, we hope that WeShare would help us: protect the environment by managing our waste so that minimizing human's impact on the environment; get people the stuff they need or want at a lower cost (like by swapping with other users or spending few bucks to buy the secondhand, or for free), and make the community more unified on reducing environmental impact and financial responsibility.
 
 
-Automated Tests:
+# Automated Tests:
 
-1.Description of test: xcode includes an automation feature called UIAtomation that test drive our applicatin via writting scripts. It estimates how the user would react with our application and shows an editor log which contains log messeges and log types for every test that you write. 
+1.Description of test: xcode includes an automation feature called UIAtomation that test drive our applicatin via writting scripts. It estimates how the user would react with our application and shows an editor log which contains log messeges and log types for every test that you write. it can aloso check marks to indicate a test pass.  
 
-2.Please check the attached screenshots file for the test in the repository ("Test screeshot"). Description of screenshots：
+
+2.Please check the attached screenshots for the test in the repository. Description of screenshots：
 
 -----Screenshot1: This is the test for the program when we build and run the project at the navigation. The test results got out when we click buttoms, type in informations and do other manipulations.
 
 -----Screenshot2: This is the Debug page after we build and run the project that it shows the status of the project and to show if there is any place we need to change.
 
------Screenshot3: This is the screenshot of our login page, which contains several functions, like entering email and password, the link to find the password if forgot, link to sign up and go back to the previous page. And we tested everything, which works pretty well.     
+-----Screenshot3: This is the screenshot of our login page, which contains several functions, like entering email and password, the link to find the password if forgot, link to sign up if you don't have an account and go back to the previous page. And we tested everything, which works pretty well.     
 
------Screenshot4: This is the searching page that help people to find what they want or interest in. It also contain two links which are ‘login’ and ’Sign up’. The proposal is helping people, and make the search more convenience.
+-----Screenshot4: This is the searching page that help people to find what they want or have interest in. It also contain two links which are ‘login’ and ’Sign up’. The proposal is helping people, and make the search more convenience.
 
 -----Screenshot5: This is the ’Sign up’ page which let the new user to create a profile. And you need to input some important information, such like name, email, password, address and such on. And there are two links which are ‘Login’ and ‘Go back’. To help people to log in and go to the previous page. 
 
 -----Screenshot6: This is the Categories page of WeShare. We have several categories which are Books, Electronics, Furniture, Toys & Games, Clothes and Accessories. We contain all the things that people maybe interest in or needed and these things can be swap with others or be secondhand. And we have the ‘Go back’ link in case user want to search something.
 
------Screenshot7-Screenshot12(except 10): They are the categories' pages with more detailed sub categories of each type. For Books, we have arts & photography, biography, children, cooking, sci-fi, history, mystery, romance, literature and textbooks. For furniture, we cateforied in living room, kitchen, bedroom and dining room. For Aacessaries, we have rings, bracelet, glasses, headwares, necklace, earrings, bags & luggages. For electricities, we have subcategories: camera, television, watches, tablets ,laptops, printers, headphones and phones. For clothes, we categories in tops, bottoms, dresses, and shoes. For the toy & game part, as the consider of not much of the toys and games will be saled, we did not category them more into smaller sub-categories.
+-----Screenshot7 to Screenshot12(not including 10! ): They are the categories' pages with more detailed sub categories of each type. For Books, we have arts & photography, biography, children, cooking, sci-fi, history, mystery, romance, literature and textbooks. For furniture, we cateforied in living room, kitchen, bedroom and dining room. For Aacessaries, we have rings, bracelet, glasses, headwares, necklace, earrings, bags & luggages. For electricities, we have subcategories: camera, television, watches, tablets ,laptops, printers, headphones and phones. For clothes, we categories in tops, bottoms, dresses, and shoes. For the toy & game part, as the consider of not much of the toys and games will be saled, we did not category them more into smaller sub-categories.
 
------Screenshot10: It is the picture taking and picture choosing for adding the items for sell
+-----Screenshot10: It is the picture taking or picture choosing for adding the items for sell as our App is based on pictures 
 
 
 
-User Acceptance Tests Plans (UAT Plans):
+# User Acceptance Tests Plans (UAT Plans):
 
 TEST:1
 
