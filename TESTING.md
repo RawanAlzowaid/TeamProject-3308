@@ -19,7 +19,7 @@ Description：
 Screenshot1:
 Screenshot2:
 Screenshot3: This is the screenshot of our login page, which contains several functions, like entering email and password, the link to find the password if forgot, link to sign up and go back to the previous page. And we tested everything, which works pretty well.     
-Screenshot4: This is the searching page that help people to find what they want or interest in.  
+Screenshot4: This is the searching page that helps people to find what they want or interest in. Also contain two links which are 'login' and 'sign up', the proposal is to help people be more convenient to use this app.  
 Screenshot5:
 Screenshot6:
 Screenshot7-Screenshot12(except 10):
