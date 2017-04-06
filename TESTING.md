@@ -39,6 +39,7 @@ Automated Tests:
 -----Screenshot10: It is the picture taking and picture choosing for adding the items for sell
 
 
+
 User Acceptance Tests:
 
 TEST:1
