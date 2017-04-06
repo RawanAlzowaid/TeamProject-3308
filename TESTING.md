@@ -40,7 +40,7 @@ Automated Tests:
 
 
 
-User Acceptance Tests:
+User Acceptance Tests Plans (UAT Plans):
 
 TEST:1
 
