@@ -13,7 +13,7 @@ Thus, we hope that WeShare would help us: protect the environment by managing ou
 
 Automated Tests:  
 1.xcode includes an automation feature called UIAtomation that test drive our applicatin via writting scripts. It estimates how the user would react with our application and shows an editor log which contains log messeges and log types for every test that you write.  
-2.The Screenshots of the test please check the attachments
+2.Please check the attached screenshots for the test in the repository.
  
 User Acceptance Tests:
 TEST:1
