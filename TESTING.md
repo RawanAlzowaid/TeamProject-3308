@@ -16,6 +16,7 @@ Try to ask that if the build method in Xcode count as testing, if we screenshot 
 Also, xcode automatically contain a test code itself, how can we use that or modify that some way to let it be the automate test file.
 
 User Acceptance:
+
 NO:1
 Use case name
     Verify registration with login and password
@@ -88,23 +89,22 @@ Post-conditions
     
 NO:4
 Use case name
-    Verify camera using for attach images
+    Verify camera use in app
 Description
-    Test
+    Test the app's access to the camera and the ability to add an img to database
 Pre-conditions
-    User has 
+    User has navigated to add item page 
 Test steps
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Click icon to take picture
+    2. Take picture
+    3. Confirm picture taken
 Expected result
-    User should be 
+    User should be able to take a picture of item
 Actual result
-    User is 
+    User sees item successfully added alert
 Status (Pass/Fail)
     Pass
 Notes
     N/A
 Post-conditions
-    User is 
+    Camera should be accessed and image taken should be added in database under the user
