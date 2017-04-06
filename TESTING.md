@@ -18,27 +18,26 @@ Also, xcode automatically contain a test code itself, how can we use that or mod
 User Acceptance:
 NO:1 --------------------- Max, please try to do this. Thank you! (below is the example I copied from our course website)?????????????????
 Use case name
-    Verify login with valid user name and password
+    Verify registration with login and password
 Description
-    Test the Google login page
+    Test the account registration and login to user protected space in app
 Pre-conditions
-    User has valid user name and password
+    User has made an account and can access it with username and password
 Test steps
-    1. Navigate to login page
-    2. Provide valid user name
-    3. Provide valid password
-    4. Click login button
+    1. Navigate to register page
+    2. Provide username
+    3. Provide password
+    4. Navigate to user protected page
 Expected result
-    User should be able to login
+    User information should be stored in database
 Actual result
-    User is navigated to dashboard with successful login
+    User navigates to home page in app
 Status (Pass/Fail)
     Pass
 Notes
     N/A
 Post-conditions
-    User is validated with database and successfully signed into their account.
-    The account session details are logged in database.
+    User is added in database and thier profile information in database is validated.
 NO:2 
 Use case name
     Finding supplies
