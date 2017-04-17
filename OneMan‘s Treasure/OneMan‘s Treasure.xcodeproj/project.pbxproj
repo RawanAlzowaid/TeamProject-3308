@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1AD3241E96B5A900541612 /* myTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1AD3231E96B5A900541612 /* myTest.m */; };
 		FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FBD1E68EB39006CE4C1 /* main.m */; };
 		FC2B0FC11E68EB39006CE4C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FC01E68EB39006CE4C1 /* AppDelegate.m */; };
 		FC2B0FC41E68EB39006CE4C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FC31E68EB39006CE4C1 /* ViewController.m */; };
@@ -23,6 +24,7 @@
 		FC2B0FFF1E690A94006CE4C1 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FFE1E690A94006CE4C1 /* LogInViewController.m */; };
 		FC2B10051E690B66006CE4C1 /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B10041E690B66006CE4C1 /* SignUp.m */; };
 		FC5DE1761E95E8F300017751 /* cameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5DE1751E95E8F300017751 /* cameraController.m */; };
+		FC9C60A41E96E606002B7D4F /* WeShare__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C60A31E96E606002B7D4F /* WeShare__UITests.swift */; };
 		FCB0E2BA1E9577F0009E8FC8 /* Accessories.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB0E2861E9577F0009E8FC8 /* Accessories.png */; };
 		FCB0E2BB1E9577F0009E8FC8 /* Arts.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB0E2871E9577F0009E8FC8 /* Arts.png */; };
 		FCB0E2BC1E9577F0009E8FC8 /* BabyBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB0E2881E9577F0009E8FC8 /* BabyBottom.png */; };
@@ -92,9 +94,24 @@
 			remoteGlobalIDString = FC2B0FB81E68EB39006CE4C1;
 			remoteInfo = "OneMan‘s Treasure";
 		};
+		FC9C60981E96E59E002B7D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2B0FB11E68EB39006CE4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2B0FB81E68EB39006CE4C1;
+			remoteInfo = "OneMan‘s Treasure";
+		};
+		FC9C60A61E96E606002B7D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2B0FB11E68EB39006CE4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2B0FB81E68EB39006CE4C1;
+			remoteInfo = "OneMan‘s Treasure";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1AD3231E96B5A900541612 /* myTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTest.m; sourceTree = "<group>"; };
 		FC2B0FB91E68EB39006CE4C1 /* OneMan‘s Treasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneMan‘s Treasure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2B0FBD1E68EB39006CE4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC2B0FBF1E68EB39006CE4C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +139,11 @@
 		FC2B10041E690B66006CE4C1 /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUp.m; path = ../SignUp.m; sourceTree = "<group>"; };
 		FC5DE1741E95E8F300017751 /* cameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cameraController.h; path = ../cameraController.h; sourceTree = "<group>"; };
 		FC5DE1751E95E8F300017751 /* cameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cameraController.m; path = ../cameraController.m; sourceTree = "<group>"; };
+		FC9C608A1E96D6F1002B7D4F /* OneMan‘s TreasureUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OneMan‘s TreasureUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC9C60931E96E59E002B7D4F /* WeShare UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeShare UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9C60A11E96E606002B7D4F /* WeShare _UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeShare _UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9C60A31E96E606002B7D4F /* WeShare__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeShare__UITests.swift; sourceTree = "<group>"; };
+		FC9C60A51E96E606002B7D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCB0E2861E9577F0009E8FC8 /* Accessories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Accessories.png; sourceTree = "<group>"; };
 		FCB0E2871E9577F0009E8FC8 /* Arts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arts.png; sourceTree = "<group>"; };
 		FCB0E2881E9577F0009E8FC8 /* BabyBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BabyBottom.png; sourceTree = "<group>"; };
@@ -198,6 +220,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC9C60901E96E59E002B7D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C609E1E96E606002B7D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -207,7 +243,9 @@
 				FC2B0FBB1E68EB39006CE4C1 /* OneMan‘s Treasure */,
 				FC2B0FD51E68EB3A006CE4C1 /* OneMan‘s TreasureTests */,
 				FC2B0FE01E68EB3A006CE4C1 /* OneMan‘s TreasureUITests */,
+				FC9C60A21E96E606002B7D4F /* WeShare _UITests */,
 				FC2B0FBA1E68EB39006CE4C1 /* Products */,
+				FC9C608A1E96D6F1002B7D4F /* OneMan‘s TreasureUITests-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,6 +255,8 @@
 				FC2B0FB91E68EB39006CE4C1 /* OneMan‘s Treasure.app */,
 				FC2B0FD21E68EB3A006CE4C1 /* OneMan‘s TreasureTests.xctest */,
 				FC2B0FDD1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests.xctest */,
+				FC9C60931E96E59E002B7D4F /* WeShare UITests.xctest */,
+				FC9C60A11E96E606002B7D4F /* WeShare _UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -322,8 +362,18 @@
 			children = (
 				FC2B0FE11E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m */,
 				FC2B0FE31E68EB3A006CE4C1 /* Info.plist */,
+				FC1AD3231E96B5A900541612 /* myTest.m */,
 			);
 			path = "OneMan‘s TreasureUITests";
+			sourceTree = "<group>";
+		};
+		FC9C60A21E96E606002B7D4F /* WeShare _UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C60A31E96E606002B7D4F /* WeShare__UITests.swift */,
+				FC9C60A51E96E606002B7D4F /* Info.plist */,
+			);
+			path = "WeShare _UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,12 +432,49 @@
 			productReference = FC2B0FDD1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FC9C60921E96E59E002B7D4F /* WeShare UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9C609A1E96E59E002B7D4F /* Build configuration list for PBXNativeTarget "WeShare UITests" */;
+			buildPhases = (
+				FC9C608F1E96E59E002B7D4F /* Sources */,
+				FC9C60901E96E59E002B7D4F /* Frameworks */,
+				FC9C60911E96E59E002B7D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9C60991E96E59E002B7D4F /* PBXTargetDependency */,
+			);
+			name = "WeShare UITests";
+			productName = "WeShare UITests";
+			productReference = FC9C60931E96E59E002B7D4F /* WeShare UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FC9C60A01E96E606002B7D4F /* WeShare _UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9C60A81E96E606002B7D4F /* Build configuration list for PBXNativeTarget "WeShare _UITests" */;
+			buildPhases = (
+				FC9C609D1E96E606002B7D4F /* Sources */,
+				FC9C609E1E96E606002B7D4F /* Frameworks */,
+				FC9C609F1E96E606002B7D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9C60A71E96E606002B7D4F /* PBXTargetDependency */,
+			);
+			name = "WeShare _UITests";
+			productName = "WeShare _UITests";
+			productReference = FC9C60A11E96E606002B7D4F /* WeShare _UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		FC2B0FB11E68EB39006CE4C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "龚梦晨";
 				TargetAttributes = {
@@ -403,6 +490,19 @@
 						TestTargetID = FC2B0FB81E68EB39006CE4C1;
 					};
 					FC2B0FDC1E68EB3A006CE4C1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9RBFBK3B3S;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC2B0FB81E68EB39006CE4C1;
+					};
+					FC9C60921E96E59E002B7D4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9RBFBK3B3S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC2B0FB81E68EB39006CE4C1;
+					};
+					FC9C60A01E96E606002B7D4F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9RBFBK3B3S;
 						ProvisioningStyle = Automatic;
@@ -426,6 +526,8 @@
 				FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */,
 				FC2B0FD11E68EB3A006CE4C1 /* OneMan‘s TreasureTests */,
 				FC2B0FDC1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests */,
+				FC9C60921E96E59E002B7D4F /* WeShare UITests */,
+				FC9C60A01E96E606002B7D4F /* WeShare _UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -512,6 +614,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC9C60911E96E59E002B7D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C609F1E96E606002B7D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -541,6 +657,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC2B0FE21E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m in Sources */,
+				FC1AD3241E96B5A900541612 /* myTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C608F1E96E59E002B7D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C609D1E96E606002B7D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9C60A41E96E606002B7D4F /* WeShare__UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +688,16 @@
 			isa = PBXTargetDependency;
 			target = FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */;
 			targetProxy = FC2B0FDE1E68EB3A006CE4C1 /* PBXContainerItemProxy */;
+		};
+		FC9C60991E96E59E002B7D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */;
+			targetProxy = FC9C60981E96E59E002B7D4F /* PBXContainerItemProxy */;
+		};
+		FC9C60A71E96E606002B7D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */;
+			targetProxy = FC9C60A61E96E606002B7D4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -672,6 +814,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "OneMan‘s Treasure/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-Treasure";
@@ -684,6 +827,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "OneMan‘s Treasure/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-Treasure";
@@ -720,11 +864,15 @@
 		FC2B0FED1E68EB3A006CE4C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;
 				INFOPLIST_FILE = "OneMan‘s TreasureUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-TreasureUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OneMan‘s TreasureUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "OneMan‘s Treasure";
 			};
 			name = Debug;
@@ -732,11 +880,67 @@
 		FC2B0FEE1E68EB3A006CE4C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;
 				INFOPLIST_FILE = "OneMan‘s TreasureUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-TreasureUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OneMan‘s TreasureUITests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "OneMan‘s Treasure";
+			};
+			name = Release;
+		};
+		FC9C609B1E96E59E002B7D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "WeShare UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.WeShare-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OneMan‘s Treasure";
+			};
+			name = Debug;
+		};
+		FC9C609C1E96E59E002B7D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "WeShare UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.WeShare-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OneMan‘s Treasure";
+			};
+			name = Release;
+		};
+		FC9C60A91E96E606002B7D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "WeShare _UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.WeShare--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "OneMan‘s Treasure";
+			};
+			name = Debug;
+		};
+		FC9C60AA1E96E606002B7D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RBFBK3B3S;
+				INFOPLIST_FILE = "WeShare _UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.WeShare--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "OneMan‘s Treasure";
 			};
 			name = Release;
@@ -779,6 +983,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FC9C609A1E96E59E002B7D4F /* Build configuration list for PBXNativeTarget "WeShare UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C609B1E96E59E002B7D4F /* Debug */,
+				FC9C609C1E96E59E002B7D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC9C60A81E96E606002B7D4F /* Build configuration list for PBXNativeTarget "WeShare _UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C60A91E96E606002B7D4F /* Debug */,
+				FC9C60AA1E96E606002B7D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

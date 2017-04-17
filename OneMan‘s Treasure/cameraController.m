@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
 }
 
-AVCaptureSession *session;
+/*AVCaptureSession *session;
 AVCaptureStillImageOutput *StillImageOutput;
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -56,7 +56,7 @@ AVCaptureStillImageOutput *StillImageOutput;
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
+}*/
 
 /*
 #pragma mark - Navigation

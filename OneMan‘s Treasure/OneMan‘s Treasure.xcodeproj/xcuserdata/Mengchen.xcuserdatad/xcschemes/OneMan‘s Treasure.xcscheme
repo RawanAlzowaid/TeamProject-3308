@@ -48,6 +48,26 @@
                ReferencedContainer = "container:OneMan&#x2018;s Treasure.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FC9C60921E96E59E002B7D4F"
+               BuildableName = "WeShare UITests.xctest"
+               BlueprintName = "WeShare UITests"
+               ReferencedContainer = "container:OneMan&#x2018;s Treasure.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FC9C60A01E96E606002B7D4F"
+               BuildableName = "WeShare _UITests.xctest"
+               BlueprintName = "WeShare _UITests"
+               ReferencedContainer = "container:OneMan&#x2018;s Treasure.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
