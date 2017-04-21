@@ -1,3 +1,12 @@
+#import <UIkit/UIkit.h>
+
+@interface cameraController :UIViewController <VIImagePickerControllerDelegate,UINavigationControllerDelegate>
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)takePhoto:  (UIButton *)sender;  
+- (IBAction)selectPhoto:(UIButton *)sender;  
+ 
+
 - (void)takePhoto {
 
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
@@ -10,7 +19,7 @@
 }
 
 
- (void)selectPhoto {
+ -(void)selectPhoto {
 
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
     picker.delegate = self;
@@ -40,7 +49,40 @@
 }
 
 
-^^ http://www.appcoda.com/ios-programming-camera-iphone-app/
+@end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//^^ http://www.appcoda.com/ios-programming-camera-iphone-app/
 
 
 
