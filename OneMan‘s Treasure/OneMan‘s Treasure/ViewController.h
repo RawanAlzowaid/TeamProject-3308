@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UISearchBarDelegate> {
+    IBOutlet UISearchBar *searchBar;
+    
+    NSArray *allItems;
+    NSMutableArray *displayItems;
+}
 
 
 @end
