@@ -17,6 +17,8 @@
 - (IBAction)SearchButton:(id)sender {
 }
 
+- (IBAction)browseButtonClicked:(id)sender {
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
