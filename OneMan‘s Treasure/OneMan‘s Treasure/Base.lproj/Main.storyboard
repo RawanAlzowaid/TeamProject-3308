@@ -12,7 +12,7 @@
         <!--Books-->
         <scene sceneID="r9Z-1Y-Y61">
             <objects>
-                <viewController title="Books" id="O9G-Dg-Thz" sceneMemberID="viewController">
+                <viewController title="Books" id="O9G-Dg-Thz" customClass="BookController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Lno-Ot-0Q9"/>
                         <viewControllerLayoutGuide type="bottom" id="bQV-zN-xSN"/>
@@ -142,22 +142,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Textbooks"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x64-zF-yBK">
-                                <rect key="frame" x="263" y="148" width="55" height="30"/>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="Books, Electronics..." translatesAutoresizingMaskIntoConstraints="NO" id="sSo-jH-1Yo">
+                                <rect key="frame" x="44" y="140" width="181" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52K-gL-nDR">
+                                <rect key="frame" x="261" y="140" width="75" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.85927597979274151" green="0.91341833057586208" blue="0.94628673857158474" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.67940117799999999" green="0.67940117799999999" blue="0.67940117799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <segue destination="lOg-BI-hQK" kind="modal" id="54g-J9-1hH"/>
+                                    <segue destination="lOg-BI-hQK" kind="modal" id="UUh-AG-ybY"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What are you looking for?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dHs-Rw-MPH">
-                                <rect key="frame" x="57" y="148" width="207" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -165,12 +164,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8cR-Nl-g7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-642" y="-1138"/>
+            <point key="canvasLocation" x="-642.39999999999998" y="-1138.3808095952024"/>
         </scene>
         <!--Furniture-->
         <scene sceneID="Oqv-Mw-IJA">
             <objects>
-                <viewController title="Furniture" id="cwp-g1-hPg" sceneMemberID="viewController">
+                <viewController title="Furniture" id="cwp-g1-hPg" customClass="FurnitureController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rRR-1s-TQW"/>
                         <viewControllerLayoutGuide type="bottom" id="YBu-15-WaP"/>
@@ -234,22 +233,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Living Room"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What are you looking for?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vVU-pH-b69">
-                                <rect key="frame" x="59" y="146" width="207" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYq-HW-bTN">
+                                <rect key="frame" x="258" y="147" width="75" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zdn-0c-q6J">
-                                <rect key="frame" x="261" y="146" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.85927597980000003" green="0.91341833059999999" blue="0.94628673860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.67940117799999999" green="0.67940117799999999" blue="0.67940117799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <segue destination="lOg-BI-hQK" kind="modal" id="udH-ys-dQ8"/>
+                                    <segue destination="lOg-BI-hQK" kind="modal" id="J3Q-DU-cpw"/>
                                 </connections>
                             </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="Books, Electronics..." translatesAutoresizingMaskIntoConstraints="NO" id="bp4-t4-yPu">
+                                <rect key="frame" x="42" y="147" width="181" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -257,12 +255,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMz-jw-MQC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-41" y="-1138"/>
+            <point key="canvasLocation" x="-42.399999999999999" y="-1138.3808095952024"/>
         </scene>
         <!--Accessories & Jewries-->
         <scene sceneID="deo-cA-aVb">
             <objects>
-                <viewController title="Accessories &amp; Jewries" id="Ubm-kr-8Zx" sceneMemberID="viewController">
+                <viewController title="Accessories &amp; Jewries" id="Ubm-kr-8Zx" customClass="AccessJewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Er3-cq-4AX"/>
                         <viewControllerLayoutGuide type="bottom" id="R2K-iI-Srs"/>
@@ -370,22 +368,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Headwares"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What are you looking for?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hLD-yM-l1h">
-                                <rect key="frame" x="59" y="146" width="207" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rrj-TV-iTt">
+                                <rect key="frame" x="258" y="151" width="75" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cto-2c-gb0">
-                                <rect key="frame" x="261" y="146" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.85927597980000003" green="0.91341833059999999" blue="0.94628673860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.67940117799999999" green="0.67940117799999999" blue="0.67940117799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <segue destination="lOg-BI-hQK" kind="modal" id="rrU-r1-U60"/>
+                                    <segue destination="lOg-BI-hQK" kind="modal" id="RZm-2Q-uF6"/>
                                 </connections>
                             </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="Books, Electronics..." translatesAutoresizingMaskIntoConstraints="NO" id="uch-eZ-a9t">
+                                <rect key="frame" x="42" y="151" width="181" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -427,6 +424,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="587"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVz-gc-DxZ">
+                                <rect key="frame" x="322" y="20" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UXd-bh-S99" kind="modal" id="3Hh-Pi-BqT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -436,12 +445,107 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hug-UL-DK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="722" y="-1878"/>
+            <point key="canvasLocation" x="560.79999999999995" y="-1846.3268365817094"/>
         </scene>
-        <!--View Controller-->
+        <!--Item Controller-->
+        <scene sceneID="h1W-zf-ddu">
+            <objects>
+                <viewController id="UXd-bh-S99" customClass="ItemController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jNw-CW-Tyf"/>
+                        <viewControllerLayoutGuide type="bottom" id="ce5-JU-NGH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G1m-zT-her">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item Information:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mom-Pb-Irg">
+                                <rect key="frame" x="30" y="244" width="159" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNO-C1-34l">
+                                <rect key="frame" x="30" y="286" width="34" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Short discription" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEJ-pI-7w2">
+                                <rect key="frame" x="30" y="325" width="127" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPz-TT-CgA">
+                                <rect key="frame" x="30" y="475" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-UA-5j5">
+                                <rect key="frame" x="30" y="513" width="39" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7BR-sD-Z3x">
+                                <rect key="frame" x="123" y="283" width="221" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2SM-n2-9fx">
+                                <rect key="frame" x="123" y="475" width="221" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DxJ-1j-yno">
+                                <rect key="frame" x="123" y="513" width="221" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dnE-L6-33Y">
+                                <rect key="frame" x="30" y="354" width="314" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="lDM-H0-3kf">
+                                <rect key="frame" x="-17" y="76" width="152" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WeShare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Es5-LW-dzm">
+                                <rect key="frame" x="148" y="71" width="227" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pe3-yi-mc7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197.5999999999999" y="-1846.3268365817094"/>
+        </scene>
+        <!--Electronic Controller-->
         <scene sceneID="Zv2-oA-wXY">
             <objects>
-                <viewController id="R4J-Bb-sGI" sceneMemberID="viewController">
+                <viewController id="R4J-Bb-sGI" customClass="ElectronicController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4BI-hy-0XB"/>
                         <viewControllerLayoutGuide type="bottom" id="JBW-lK-3yT"/>
@@ -549,22 +653,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Headphones"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What are you looking for?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SWt-nO-yWF">
-                                <rect key="frame" x="59" y="148" width="207" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rR6-de-bZC">
+                                <rect key="frame" x="258" y="149" width="75" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63f-4G-oX3">
-                                <rect key="frame" x="261" y="148" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.85927597980000003" green="0.91341833059999999" blue="0.94628673860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.67940117799999999" green="0.67940117799999999" blue="0.67940117799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <segue destination="lOg-BI-hQK" kind="modal" id="wXw-ki-44B"/>
+                                    <segue destination="lOg-BI-hQK" kind="modal" id="dD3-ta-B6n"/>
                                 </connections>
                             </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="Books, Electronics..." translatesAutoresizingMaskIntoConstraints="NO" id="h11-Hh-9Bb">
+                                <rect key="frame" x="42" y="149" width="181" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -572,12 +675,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AAF-Ko-mSA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1164" y="-1138"/>
+            <point key="canvasLocation" x="1164" y="-1138.3808095952024"/>
         </scene>
         <!--Clothes-->
         <scene sceneID="D3y-lU-WUK">
             <objects>
-                <viewController title="Clothes" id="Ugw-aB-dbN" sceneMemberID="viewController">
+                <viewController title="Clothes" id="Ugw-aB-dbN" customClass="ClothesController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eXJ-Go-q4G"/>
                         <viewControllerLayoutGuide type="bottom" id="CuW-3a-a7L"/>
@@ -641,22 +744,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Shoes"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What are you looking for?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sxj-eJ-Yad">
-                                <rect key="frame" x="59" y="148" width="207" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e78-75-z6S">
+                                <rect key="frame" x="258" y="150" width="75" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtB-oK-ZEp">
-                                <rect key="frame" x="261" y="148" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.85927597980000003" green="0.91341833059999999" blue="0.94628673860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.67940117799999999" green="0.67940117799999999" blue="0.67940117799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <segue destination="lOg-BI-hQK" kind="modal" id="HWR-SO-sbe"/>
+                                    <segue destination="lOg-BI-hQK" kind="modal" id="awK-co-RzI"/>
                                 </connections>
                             </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="Books, Electronics..." translatesAutoresizingMaskIntoConstraints="NO" id="Vn1-Xd-htT">
+                                <rect key="frame" x="42" y="150" width="181" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -664,12 +766,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WQU-8p-m3d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1767" y="-1138"/>
+            <point key="canvasLocation" x="1765.5999999999999" y="-1138.3808095952024"/>
         </scene>
-        <!--View Controller-->
+        <!--Tor Game Controller-->
         <scene sceneID="3ds-i4-Rbj">
             <objects>
-                <viewController id="2mO-ux-2V6" sceneMemberID="viewController">
+                <viewController id="2mO-ux-2V6" customClass="TorGameController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LwI-Ec-Im3"/>
                         <viewControllerLayoutGuide type="bottom" id="MAn-dx-anx"/>
@@ -689,21 +791,86 @@
                                 <color key="textColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What are you looking for?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZiR-eD-KwM">
-                                <rect key="frame" x="48" y="148" width="207" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kx-5B-X5Z">
+                                <rect key="frame" x="258" y="152" width="75" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDH-Ug-ZHl">
-                                <rect key="frame" x="250" y="148" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.85927597980000003" green="0.91341833059999999" blue="0.94628673860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.67940117799999999" green="0.67940117799999999" blue="0.67940117799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <segue destination="lOg-BI-hQK" kind="modal" id="dJ6-4d-cUH"/>
+                                    <segue destination="lOg-BI-hQK" kind="modal" id="CNN-4a-BpR"/>
                                 </connections>
+                            </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="Books, Electronics..." translatesAutoresizingMaskIntoConstraints="NO" id="of9-y0-dXt">
+                                <rect key="frame" x="42" y="152" width="181" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qj1-OJ-gAh">
+                                <rect key="frame" x="59" y="218" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="plush.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YTt-av-obT">
+                                <rect key="frame" x="42" y="242" width="66" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Plushes"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xw9-nd-sxf">
+                                <rect key="frame" x="175" y="220" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="dolls.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izF-cJ-LjT">
+                                <rect key="frame" x="164" y="250" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Dolls"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0M-il-eT5">
+                                <rect key="frame" x="294" y="218" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="actionFigures.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTQ-jT-oqG">
+                                <rect key="frame" x="287" y="247" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Action Figures"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPB-C4-IhN">
+                                <rect key="frame" x="59" y="282" width="33" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="playsets.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPU-rG-WLF">
+                                <rect key="frame" x="51" y="314" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Playsets"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaZ-k4-SMN">
+                                <rect key="frame" x="175" y="283" width="33" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="cars.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcB-Nm-OgS">
+                                <rect key="frame" x="163" y="314" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Toy Cars"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1R-sy-UOA">
+                                <rect key="frame" x="293" y="283" width="33" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Games.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TDO-Se-Se3">
+                                <rect key="frame" x="280" y="314" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Games"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -711,12 +878,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lf0-Oz-Y8P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2367" y="-1138"/>
+            <point key="canvasLocation" x="2366" y="-1138"/>
         </scene>
         <!--Categories-->
         <scene sceneID="9q5-yY-aJN">
             <objects>
-                <viewController title="Categories" id="lOg-BI-hQK" sceneMemberID="viewController">
+                <viewController title="Categories" id="lOg-BI-hQK" customClass="Category" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kqh-eF-nqf"/>
                         <viewControllerLayoutGuide type="bottom" id="oFl-5u-Vi9"/>
@@ -725,54 +892,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suz-K5-dKI">
-                                <rect key="frame" x="57" y="200" width="100" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Books.png"/>
-                                <connections>
-                                    <segue destination="O9G-Dg-Thz" kind="modal" id="QeN-ad-eGK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3O4-Ks-nYp">
-                                <rect key="frame" x="217" y="200" width="100" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Electronic.png"/>
-                                <connections>
-                                    <segue destination="R4J-Bb-sGI" kind="modal" id="YDB-W1-q3S"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zM3-SO-hpS">
-                                <rect key="frame" x="58" y="340" width="99" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Furniture.png"/>
-                                <connections>
-                                    <segue destination="cwp-g1-hPg" kind="modal" id="hD8-8W-xJ0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLj-If-jfu">
-                                <rect key="frame" x="217" y="340" width="100" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Toys.png"/>
-                                <connections>
-                                    <segue destination="2mO-ux-2V6" kind="modal" id="ALV-NG-l8P"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygs-Lj-PRG">
-                                <rect key="frame" x="217" y="487" width="100" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Accessories.png"/>
-                                <connections>
-                                    <segue destination="Ubm-kr-8Zx" kind="modal" id="RnY-fH-Q56"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b29-Uh-3KW">
-                                <rect key="frame" x="57" y="487" width="100" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Clothing.png"/>
-                                <connections>
-                                    <segue destination="Ugw-aB-dbN" kind="modal" id="slV-zO-upP"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="V43-u6-6IU">
                                 <rect key="frame" x="-17" y="62" width="152" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -784,36 +903,6 @@
                                 <color key="textColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GA-rq-a2d">
-                                <rect key="frame" x="84" y="278" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Books"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5t-2z-QR7">
-                                <rect key="frame" x="225" y="278" width="85" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Electronics"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxY-Ay-jb1">
-                                <rect key="frame" x="62" y="422" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Furniture"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXn-rn-xrF">
-                                <rect key="frame" x="203" y="422" width="128" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Toys &amp; Games"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zce-bu-E5S">
-                                <rect key="frame" x="79" y="569" width="56" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Clothes"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPt-WX-4hl">
-                                <rect key="frame" x="223" y="569" width="89" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Accessories"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBM-sF-J5M">
                                 <rect key="frame" x="7" y="593" width="73" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -821,6 +910,84 @@
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="modal" id="3U7-A9-LJH"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suz-K5-dKI">
+                                <rect key="frame" x="59" y="186" width="100" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Books.png"/>
+                                <connections>
+                                    <segue destination="O9G-Dg-Thz" kind="modal" id="QeN-ad-eGK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3O4-Ks-nYp">
+                                <rect key="frame" x="219" y="186" width="100" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Electronic.png"/>
+                                <connections>
+                                    <segue destination="R4J-Bb-sGI" kind="modal" id="YDB-W1-q3S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zM3-SO-hpS">
+                                <rect key="frame" x="60" y="326" width="99" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Furniture.png"/>
+                                <connections>
+                                    <segue destination="cwp-g1-hPg" kind="modal" id="hD8-8W-xJ0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLj-If-jfu">
+                                <rect key="frame" x="219" y="326" width="100" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Toys.png"/>
+                                <connections>
+                                    <segue destination="2mO-ux-2V6" kind="modal" id="ALV-NG-l8P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygs-Lj-PRG">
+                                <rect key="frame" x="219" y="473" width="100" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Accessories.png"/>
+                                <connections>
+                                    <segue destination="Ubm-kr-8Zx" kind="modal" id="RnY-fH-Q56"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b29-Uh-3KW">
+                                <rect key="frame" x="59" y="473" width="100" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Clothing.png"/>
+                                <connections>
+                                    <segue destination="Ugw-aB-dbN" kind="modal" id="slV-zO-upP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GA-rq-a2d">
+                                <rect key="frame" x="86" y="264" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Books"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5t-2z-QR7">
+                                <rect key="frame" x="227" y="264" width="85" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Electronics"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxY-Ay-jb1">
+                                <rect key="frame" x="64" y="408" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Furniture"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXn-rn-xrF">
+                                <rect key="frame" x="205" y="408" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Toys &amp; Games"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zce-bu-E5S">
+                                <rect key="frame" x="81" y="555" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Clothes"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPt-WX-4hl">
+                                <rect key="frame" x="225" y="555" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Accessories"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -852,13 +1019,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Books, Electronics ..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qYJ-Vk-Tsb">
-                                <rect key="frame" x="64" y="205" width="188" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4g-JL-1la">
                                 <rect key="frame" x="83" y="252" width="47" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -893,14 +1053,48 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxN-j6-hYc">
-                                <rect key="frame" x="238" y="205" width="84" height="30"/>
+                                <rect key="frame" x="258" y="200" width="75" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.67940117801047117" green="0.67940117801047117" blue="0.67940117801047117" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
+                                    <action selector="SearchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vS9-ig-Iz1"/>
                                     <segue destination="lOg-BI-hQK" kind="modal" id="7lx-pO-jpN"/>
                                 </connections>
+                            </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="Books, Electronics..." translatesAutoresizingMaskIntoConstraints="NO" id="FH7-9k-OC4">
+                                <rect key="frame" x="42" y="200" width="181" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwb-mv-yOa">
+                                <rect key="frame" x="42" y="306" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Account Settings">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBA-KC-pGd">
+                                <rect key="frame" x="42" y="344" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Browse Items">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ym3-Qh-CxN">
+                                <rect key="frame" x="42" y="386" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pick Location">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLp-5i-ucI">
+                                <rect key="frame" x="41" y="431" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="List Your Item">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -999,7 +1193,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B1B-t3-gW1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12" y="161"/>
+            <point key="canvasLocation" x="-662" y="161"/>
         </scene>
         <!--Sign up-->
         <scene sceneID="JZr-Kt-27j">
@@ -1204,6 +1398,7 @@
         <image name="Earrings.png" width="512" height="546"/>
         <image name="Electronic.png" width="274" height="222"/>
         <image name="Furniture.png" width="318" height="250"/>
+        <image name="Games.png" width="344" height="346"/>
         <image name="Glasses.png" width="556" height="584"/>
         <image name="Headphone.png" width="434" height="414"/>
         <image name="Headware.png" width="544" height="582"/>
@@ -1229,12 +1424,17 @@
         <image name="Toys.png" width="337" height="265"/>
         <image name="WDress.png" width="466" height="560"/>
         <image name="Watches.png" width="680" height="766"/>
+        <image name="actionFigures.png" width="312" height="346"/>
+        <image name="cars.png" width="343" height="346"/>
+        <image name="dolls.png" width="340" height="346"/>
         <image name="logo.png" width="1138" height="1050"/>
+        <image name="playsets.png" width="343" height="364"/>
+        <image name="plush.png" width="180" height="195"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HWR-SO-sbe"/>
-        <segue reference="ObQ-ex-fYH"/>
-        <segue reference="FoA-gb-6Rv"/>
+        <segue reference="7lx-pO-jpN"/>
         <segue reference="DLc-R7-7rt"/>
+        <segue reference="FoA-gb-6Rv"/>
+        <segue reference="fam-Py-gSh"/>
     </inferredMetricsTieBreakers>
 </document>
