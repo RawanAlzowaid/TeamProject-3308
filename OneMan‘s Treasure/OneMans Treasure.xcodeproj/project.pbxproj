@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3170128433EB02C50BD8D4 /* Pods_OneMans_Treasure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17D70F91FCC4F3DDCEEC505 /* Pods_OneMans_Treasure.framework */; };
+		A38C10471EB41C0700920E06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A38C10461EB41C0700920E06 /* GoogleService-Info.plist */; };
 		FC1AD3241E96B5A900541612 /* myTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1AD3231E96B5A900541612 /* myTest.m */; };
 		FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FBD1E68EB39006CE4C1 /* main.m */; };
 		FC2B0FC11E68EB39006CE4C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FC01E68EB39006CE4C1 /* AppDelegate.m */; };
@@ -125,8 +127,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A4734B4BFBDE282B823372 /* Pods-OneMans Treasure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans Treasure.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans Treasure/Pods-OneMans Treasure.release.xcconfig"; sourceTree = "<group>"; };
+		915282F5C6B75D6A49D89ABD /* Pods-OneMans Treasure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans Treasure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans Treasure/Pods-OneMans Treasure.debug.xcconfig"; sourceTree = "<group>"; };
+		A17D70F91FCC4F3DDCEEC505 /* Pods_OneMans_Treasure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneMans_Treasure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38C10461EB41C0700920E06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FC1AD3231E96B5A900541612 /* myTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTest.m; sourceTree = "<group>"; };
-		FC2B0FB91E68EB39006CE4C1 /* OneMan‘s Treasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneMan‘s Treasure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2B0FB91E68EB39006CE4C1 /* OneMans Treasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneMans Treasure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2B0FBD1E68EB39006CE4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC2B0FBF1E68EB39006CE4C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC2B0FC01E68EB39006CE4C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,10 +142,10 @@
 		FC2B0FC81E68EB39006CE4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2B0FCB1E68EB39006CE4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC2B0FCD1E68EB39006CE4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC2B0FD21E68EB3A006CE4C1 /* OneMan‘s TreasureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneMan‘s TreasureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2B0FD21E68EB3A006CE4C1 /* OneMans TreasureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneMans TreasureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2B0FD61E68EB3A006CE4C1 /* OneMan_s_TreasureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneMan_s_TreasureTests.m; sourceTree = "<group>"; };
 		FC2B0FD81E68EB3A006CE4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC2B0FDD1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneMan‘s TreasureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2B0FDD1E68EB3A006CE4C1 /* OneMans TreasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneMans TreasureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2B0FE11E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneMan_s_TreasureUITests.m; sourceTree = "<group>"; };
 		FC2B0FE31E68EB3A006CE4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC2B0FF11E68FF19006CE4C1 /* Background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background1.jpg; sourceTree = "<group>"; };
@@ -239,6 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3170128433EB02C50BD8D4 /* Pods_OneMans_Treasure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +280,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F647CB3B1137B7CC44640EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A17D70F91FCC4F3DDCEEC505 /* Pods_OneMans_Treasure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C55B33BF02378ED5A154362 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				915282F5C6B75D6A49D89ABD /* Pods-OneMans Treasure.debug.xcconfig */,
+				18A4734B4BFBDE282B823372 /* Pods-OneMans Treasure.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC2B0FB01E68EB39006CE4C1 = {
 			isa = PBXGroup;
 			children = (
@@ -282,15 +306,17 @@
 				FC9C60A21E96E606002B7D4F /* WeShare _UITests */,
 				FC2B0FBA1E68EB39006CE4C1 /* Products */,
 				FC9C608A1E96D6F1002B7D4F /* OneMan‘s TreasureUITests-Bridging-Header.h */,
+				3C55B33BF02378ED5A154362 /* Pods */,
+				1F647CB3B1137B7CC44640EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		FC2B0FBA1E68EB39006CE4C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC2B0FB91E68EB39006CE4C1 /* OneMan‘s Treasure.app */,
-				FC2B0FD21E68EB3A006CE4C1 /* OneMan‘s TreasureTests.xctest */,
-				FC2B0FDD1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests.xctest */,
+				FC2B0FB91E68EB39006CE4C1 /* OneMans Treasure.app */,
+				FC2B0FD21E68EB3A006CE4C1 /* OneMans TreasureTests.xctest */,
+				FC2B0FDD1E68EB3A006CE4C1 /* OneMans TreasureUITests.xctest */,
 				FC9C60931E96E59E002B7D4F /* WeShare UITests.xctest */,
 				FC9C60A11E96E606002B7D4F /* WeShare _UITests.xctest */,
 			);
@@ -307,6 +333,7 @@
 				FC2B0FC51E68EB39006CE4C1 /* Main.storyboard */,
 				FC2B0FC81E68EB39006CE4C1 /* Assets.xcassets */,
 				FC2B0FCA1E68EB39006CE4C1 /* LaunchScreen.storyboard */,
+				A38C10461EB41C0700920E06 /* GoogleService-Info.plist */,
 				FC2B0FCD1E68EB39006CE4C1 /* Info.plist */,
 				FC2B0FBC1E68EB39006CE4C1 /* Supporting Files */,
 				FC2B0FFD1E690A94006CE4C1 /* LogInViewController.h */,
@@ -437,26 +464,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */ = {
+		FC2B0FB81E68EB39006CE4C1 /* OneMans Treasure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC2B0FE61E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s Treasure" */;
+			buildConfigurationList = FC2B0FE61E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMans Treasure" */;
 			buildPhases = (
+				1DC00CFDEDDA1315C8984CAC /* [CP] Check Pods Manifest.lock */,
 				FC2B0FB51E68EB39006CE4C1 /* Sources */,
 				FC2B0FB61E68EB39006CE4C1 /* Frameworks */,
 				FC2B0FB71E68EB39006CE4C1 /* Resources */,
+				BB757B16A7246C926D9F4EB7 /* [CP] Embed Pods Frameworks */,
+				F2B42DFF1B259708D4A84352 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "OneMan‘s Treasure";
+			name = "OneMans Treasure";
 			productName = "OneMan‘s Treasure";
-			productReference = FC2B0FB91E68EB39006CE4C1 /* OneMan‘s Treasure.app */;
+			productReference = FC2B0FB91E68EB39006CE4C1 /* OneMans Treasure.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FC2B0FD11E68EB3A006CE4C1 /* OneMan‘s TreasureTests */ = {
+		FC2B0FD11E68EB3A006CE4C1 /* OneMans TreasureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC2B0FE91E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s TreasureTests" */;
+			buildConfigurationList = FC2B0FE91E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMans TreasureTests" */;
 			buildPhases = (
 				FC2B0FCE1E68EB3A006CE4C1 /* Sources */,
 				FC2B0FCF1E68EB3A006CE4C1 /* Frameworks */,
@@ -467,14 +497,14 @@
 			dependencies = (
 				FC2B0FD41E68EB3A006CE4C1 /* PBXTargetDependency */,
 			);
-			name = "OneMan‘s TreasureTests";
+			name = "OneMans TreasureTests";
 			productName = "OneMan‘s TreasureTests";
-			productReference = FC2B0FD21E68EB3A006CE4C1 /* OneMan‘s TreasureTests.xctest */;
+			productReference = FC2B0FD21E68EB3A006CE4C1 /* OneMans TreasureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FC2B0FDC1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests */ = {
+		FC2B0FDC1E68EB3A006CE4C1 /* OneMans TreasureUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC2B0FEC1E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s TreasureUITests" */;
+			buildConfigurationList = FC2B0FEC1E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMans TreasureUITests" */;
 			buildPhases = (
 				FC2B0FD91E68EB3A006CE4C1 /* Sources */,
 				FC2B0FDA1E68EB3A006CE4C1 /* Frameworks */,
@@ -485,9 +515,9 @@
 			dependencies = (
 				FC2B0FDF1E68EB3A006CE4C1 /* PBXTargetDependency */,
 			);
-			name = "OneMan‘s TreasureUITests";
+			name = "OneMans TreasureUITests";
 			productName = "OneMan‘s TreasureUITests";
-			productReference = FC2B0FDD1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests.xctest */;
+			productReference = FC2B0FDD1E68EB3A006CE4C1 /* OneMans TreasureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		FC9C60921E96E59E002B7D4F /* WeShare UITests */ = {
@@ -568,7 +598,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC2B0FB41E68EB39006CE4C1 /* Build configuration list for PBXProject "OneMan‘s Treasure" */;
+			buildConfigurationList = FC2B0FB41E68EB39006CE4C1 /* Build configuration list for PBXProject "OneMans Treasure" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -581,9 +611,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */,
-				FC2B0FD11E68EB3A006CE4C1 /* OneMan‘s TreasureTests */,
-				FC2B0FDC1E68EB3A006CE4C1 /* OneMan‘s TreasureUITests */,
+				FC2B0FB81E68EB39006CE4C1 /* OneMans Treasure */,
+				FC2B0FD11E68EB3A006CE4C1 /* OneMans TreasureTests */,
+				FC2B0FDC1E68EB3A006CE4C1 /* OneMans TreasureUITests */,
 				FC9C60921E96E59E002B7D4F /* WeShare UITests */,
 				FC9C60A01E96E606002B7D4F /* WeShare _UITests */,
 			);
@@ -623,6 +653,7 @@
 				FCB0E2D51E9577F0009E8FC8 /* Livingroom.png in Resources */,
 				FC2B0FFC1E690784006CE4C1 /* logo.png in Resources */,
 				FC2B0FC71E68EB39006CE4C1 /* Main.storyboard in Resources */,
+				A38C10471EB41C0700920E06 /* GoogleService-Info.plist in Resources */,
 				FCB0E2E01E9577F0009E8FC8 /* Romance.png in Resources */,
 				FCB0E2EA1E9577F0009E8FC8 /* WDress.png in Resources */,
 				FCB0E2C11E9577F0009E8FC8 /* Bags.png in Resources */,
@@ -694,6 +725,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DC00CFDEDDA1315C8984CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB757B16A7246C926D9F4EB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneMans Treasure/Pods-OneMans Treasure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B42DFF1B259708D4A84352 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneMans Treasure/Pods-OneMans Treasure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC2B0FB51E68EB39006CE4C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -753,22 +832,22 @@
 /* Begin PBXTargetDependency section */
 		FC2B0FD41E68EB3A006CE4C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */;
+			target = FC2B0FB81E68EB39006CE4C1 /* OneMans Treasure */;
 			targetProxy = FC2B0FD31E68EB3A006CE4C1 /* PBXContainerItemProxy */;
 		};
 		FC2B0FDF1E68EB3A006CE4C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */;
+			target = FC2B0FB81E68EB39006CE4C1 /* OneMans Treasure */;
 			targetProxy = FC2B0FDE1E68EB3A006CE4C1 /* PBXContainerItemProxy */;
 		};
 		FC9C60991E96E59E002B7D4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */;
+			target = FC2B0FB81E68EB39006CE4C1 /* OneMans Treasure */;
 			targetProxy = FC9C60981E96E59E002B7D4F /* PBXContainerItemProxy */;
 		};
 		FC9C60A71E96E606002B7D4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC2B0FB81E68EB39006CE4C1 /* OneMan‘s Treasure */;
+			target = FC2B0FB81E68EB39006CE4C1 /* OneMans Treasure */;
 			targetProxy = FC9C60A61E96E606002B7D4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -883,26 +962,28 @@
 		};
 		FC2B0FE71E68EB3A006CE4C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915282F5C6B75D6A49D89ABD /* Pods-OneMans Treasure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "OneMan‘s Treasure/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-Treasure";
+				PRODUCT_BUNDLE_IDENTIFIER = OneMansTreasure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		FC2B0FE81E68EB3A006CE4C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A4734B4BFBDE282B823372 /* Pods-OneMans Treasure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "OneMan‘s Treasure/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-Treasure";
+				PRODUCT_BUNDLE_IDENTIFIER = OneMansTreasure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -916,7 +997,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-TreasureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMan‘s Treasure.app/OneMan‘s Treasure";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMans Treasure.app/OneMans Treasure";
 			};
 			name = Debug;
 		};
@@ -929,7 +1010,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TeamProject-3308.OneMan-s-TreasureTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMan‘s Treasure.app/OneMan‘s Treasure";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneMans Treasure.app/OneMans Treasure";
 			};
 			name = Release;
 		};
@@ -1020,7 +1101,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC2B0FB41E68EB39006CE4C1 /* Build configuration list for PBXProject "OneMan‘s Treasure" */ = {
+		FC2B0FB41E68EB39006CE4C1 /* Build configuration list for PBXProject "OneMans Treasure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC2B0FE41E68EB3A006CE4C1 /* Debug */,
@@ -1029,7 +1110,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC2B0FE61E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s Treasure" */ = {
+		FC2B0FE61E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMans Treasure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC2B0FE71E68EB3A006CE4C1 /* Debug */,
@@ -1038,7 +1119,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC2B0FE91E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s TreasureTests" */ = {
+		FC2B0FE91E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMans TreasureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC2B0FEA1E68EB3A006CE4C1 /* Debug */,
@@ -1047,7 +1128,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC2B0FEC1E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMan‘s TreasureUITests" */ = {
+		FC2B0FEC1E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMans TreasureUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC2B0FED1E68EB3A006CE4C1 /* Debug */,
