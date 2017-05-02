@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "BookController.h"
+#import <Firebase/Firebase.h>
 
 @interface ViewController ()
 
@@ -67,6 +68,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)signOutButtonTapped:(id)sender {
+    NSError *signOutError;
+    BOOL status = [[FIRAuth auth] signOut:&signOutError];
+    if (!status) {
+        NSLog(@"Error signing out: %@", signOutError);
+        return;
+    }else{
+        NSLog(@"Successfully Signout");
+    }
+}
 
 
 

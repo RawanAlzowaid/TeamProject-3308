@@ -1091,13 +1091,22 @@
                                     <segue destination="lOg-BI-hQK" kind="modal" id="NRs-Du-VGf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHO-YU-Sw3">
+                                <rect key="frame" x="143" y="607" width="89" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign Out"/>
+                                <connections>
+                                    <action selector="signOutButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wOg-zT-TRT"/>
+                                    <segue destination="BhT-f5-BgM" kind="presentation" id="0X9-Ua-4jo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="934" y="526"/>
+            <point key="canvasLocation" x="933.60000000000002" y="525.78710644677665"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cVq-az-oaB">
@@ -1452,7 +1461,8 @@
         <image name="plush.png" width="180" height="195"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CG2-pe-aJW"/>
         <segue reference="NRs-Du-VGf"/>
+        <segue reference="CG2-pe-aJW"/>
+        <segue reference="0X9-Ua-4jo"/>
     </inferredMetricsTieBreakers>
 </document>
