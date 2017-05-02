@@ -1377,7 +1377,6 @@
                         <outlet property="stateField" destination="bRQ-Ca-STc" id="GM9-FV-z7g"/>
                         <outlet property="usernameField" destination="KzE-KX-vJy" id="E3E-iE-sm0"/>
                         <outlet property="zipcodeField" destination="SjI-0o-Kd6" id="PqT-tO-7lc"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="signedUp" id="8k0-ke-eHu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g4D-dI-toK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1436,6 +1435,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="NRs-Du-VGf"/>
-        <segue reference="8k0-ke-eHu"/>
+        <segue reference="CG2-pe-aJW"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -50,6 +50,11 @@
 }
 */
 - (IBAction)pressedSignUpButton:(id)sender {
+    bool usernameEntered = _usernameField.text && _usernameField.text.length > 0;
+    bool passwordEntered = _passwordField.text && _passwordField.text.length > 0;
+    bool emailEntered = _emailField.text && _emailField.text.length > 0;
+    if (usernameEntered && passwordEntered && emailEntered)
+    {
     [self showSpinner:^{
         [[FIRAuth auth] createUserWithEmail:_emailField.text password:_passwordField.text
                                  completion:^(FIRUser * _Nullable user, NSError * _Nullable error) {
@@ -73,15 +78,18 @@
                                                  [[[_ref child:@"users"] child:user.uid]
                                                   setValue:@{@"username": _usernameField.text}];
                                                  // [END basic_write]
+                                                 [self dismissViewControllerAnimated:YES completion:nil];
                                              }];
                                          }];
                                      }];
 
                                  }];
     }];
-     
-    
-    [self performSegueWithIdentifier:@"signedUp" sender:nil];
+    }
+    else
+    {
+        [self showMessagePrompt:@"Username, Password, and Email Required"];
+    }
 }
-                                 
+
 @end
