@@ -1097,7 +1097,6 @@
                                 <state key="normal" title="Sign Out"/>
                                 <connections>
                                     <action selector="signOutButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wOg-zT-TRT"/>
-                                    <segue destination="BhT-f5-BgM" kind="presentation" id="0X9-Ua-4jo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1346,7 +1345,7 @@
                                     <color key="titleColor" red="0.18750238229999999" green="0.1871539566" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BhT-f5-BgM" kind="presentation" id="OXj-aG-7Ou"/>
+                                    <action selector="backButtonTouched:" destination="JMv-gc-WRY" eventType="touchUpInside" id="occ-ci-BzZ"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ATA-gv-QJZ">
@@ -1438,6 +1437,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="NRs-Du-VGf"/>
         <segue reference="8k0-ke-eHu"/>
-        <segue reference="OXj-aG-7Ou"/>
     </inferredMetricsTieBreakers>
 </document>

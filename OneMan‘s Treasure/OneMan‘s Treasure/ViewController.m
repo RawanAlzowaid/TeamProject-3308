@@ -76,6 +76,7 @@
         return;
     }else{
         NSLog(@"Successfully Signout");
+        [self dismissViewControllerAnimated:YES completion:nil];
     }
 }
 
