@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6D25685825E9E271E9508B /* Pods_OneMans_TreasureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E24EE7D0C5739D661379E0 /* Pods_OneMans_TreasureTests.framework */; };
 		4E3170128433EB02C50BD8D4 /* Pods_OneMans_Treasure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17D70F91FCC4F3DDCEEC505 /* Pods_OneMans_Treasure.framework */; };
-		A38C10471EB41C0700920E06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A38C10461EB41C0700920E06 /* GoogleService-Info.plist */; };
+		A3FAF8AF1EB855640021C013 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3FAF8AE1EB855640021C013 /* GoogleService-Info.plist */; };
+		A3FAF8B21EB856230021C013 /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8B11EB856230021C013 /* UIViewController+Alerts.m */; };
+		A4B990CC67F0991B6C07A5F8 /* Pods_OneMans_TreasureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3538576458A6E7857426D135 /* Pods_OneMans_TreasureUITests.framework */; };
 		FC1AD3241E96B5A900541612 /* myTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1AD3231E96B5A900541612 /* myTest.m */; };
 		FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FBD1E68EB39006CE4C1 /* main.m */; };
 		FC2B0FC11E68EB39006CE4C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FC01E68EB39006CE4C1 /* AppDelegate.m */; };
@@ -127,10 +130,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05D5F5D48D59533D070E90AB /* Pods-OneMans TreasureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureTests/Pods-OneMans TreasureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		18A4734B4BFBDE282B823372 /* Pods-OneMans Treasure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans Treasure.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans Treasure/Pods-OneMans Treasure.release.xcconfig"; sourceTree = "<group>"; };
+		3538576458A6E7857426D135 /* Pods_OneMans_TreasureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneMans_TreasureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E24EE7D0C5739D661379E0 /* Pods_OneMans_TreasureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneMans_TreasureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F9847948DB91F3172A4076 /* Pods-OneMans TreasureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureUITests/Pods-OneMans TreasureUITests.release.xcconfig"; sourceTree = "<group>"; };
 		915282F5C6B75D6A49D89ABD /* Pods-OneMans Treasure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans Treasure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans Treasure/Pods-OneMans Treasure.debug.xcconfig"; sourceTree = "<group>"; };
 		A17D70F91FCC4F3DDCEEC505 /* Pods_OneMans_Treasure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneMans_Treasure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A38C10461EB41C0700920E06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A3FAF8AE1EB855640021C013 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A3FAF8B01EB856230021C013 /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = SOURCE_ROOT; };
+		A3FAF8B11EB856230021C013 /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alerts.m"; sourceTree = SOURCE_ROOT; };
+		B26652A139074970FA045241 /* Pods-OneMans TreasureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureUITests/Pods-OneMans TreasureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E261992F7A953AADAE97207E /* Pods-OneMans TreasureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureTests/Pods-OneMans TreasureTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC1AD3231E96B5A900541612 /* myTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTest.m; sourceTree = "<group>"; };
 		FC2B0FB91E68EB39006CE4C1 /* OneMans Treasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneMans Treasure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2B0FBD1E68EB39006CE4C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -253,6 +264,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6D25685825E9E271E9508B /* Pods_OneMans_TreasureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +272,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B990CC67F0991B6C07A5F8 /* Pods_OneMans_TreasureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +297,8 @@
 			isa = PBXGroup;
 			children = (
 				A17D70F91FCC4F3DDCEEC505 /* Pods_OneMans_Treasure.framework */,
+				62E24EE7D0C5739D661379E0 /* Pods_OneMans_TreasureTests.framework */,
+				3538576458A6E7857426D135 /* Pods_OneMans_TreasureUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -293,6 +308,10 @@
 			children = (
 				915282F5C6B75D6A49D89ABD /* Pods-OneMans Treasure.debug.xcconfig */,
 				18A4734B4BFBDE282B823372 /* Pods-OneMans Treasure.release.xcconfig */,
+				05D5F5D48D59533D070E90AB /* Pods-OneMans TreasureTests.debug.xcconfig */,
+				E261992F7A953AADAE97207E /* Pods-OneMans TreasureTests.release.xcconfig */,
+				B26652A139074970FA045241 /* Pods-OneMans TreasureUITests.debug.xcconfig */,
+				81F9847948DB91F3172A4076 /* Pods-OneMans TreasureUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -333,7 +352,7 @@
 				FC2B0FC51E68EB39006CE4C1 /* Main.storyboard */,
 				FC2B0FC81E68EB39006CE4C1 /* Assets.xcassets */,
 				FC2B0FCA1E68EB39006CE4C1 /* LaunchScreen.storyboard */,
-				A38C10461EB41C0700920E06 /* GoogleService-Info.plist */,
+				A3FAF8AE1EB855640021C013 /* GoogleService-Info.plist */,
 				FC2B0FCD1E68EB39006CE4C1 /* Info.plist */,
 				FC2B0FBC1E68EB39006CE4C1 /* Supporting Files */,
 				FC2B0FFD1E690A94006CE4C1 /* LogInViewController.h */,
@@ -354,6 +373,8 @@
 				FCB5CF4F1EB01C9700326A31 /* ElectronicController.m */,
 				FCB5CF511EB01D3000326A31 /* ClothesController.h */,
 				FCB5CF521EB01D3000326A31 /* ClothesController.m */,
+				A3FAF8B01EB856230021C013 /* UIViewController+Alerts.h */,
+				A3FAF8B11EB856230021C013 /* UIViewController+Alerts.m */,
 				FCB5CF541EB01D6E00326A31 /* TorGameController.h */,
 				FCB5CF551EB01D6E00326A31 /* TorGameController.m */,
 				FC5DE1741E95E8F300017751 /* cameraController.h */,
@@ -488,9 +509,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC2B0FE91E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMans TreasureTests" */;
 			buildPhases = (
+				9D5B74ADEC34924C094EF38A /* [CP] Check Pods Manifest.lock */,
 				FC2B0FCE1E68EB3A006CE4C1 /* Sources */,
 				FC2B0FCF1E68EB3A006CE4C1 /* Frameworks */,
 				FC2B0FD01E68EB3A006CE4C1 /* Resources */,
+				8A956AF147832098F996B113 /* [CP] Embed Pods Frameworks */,
+				FB0CF0C9B3D7D5150D9E94AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -506,9 +530,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC2B0FEC1E68EB3A006CE4C1 /* Build configuration list for PBXNativeTarget "OneMans TreasureUITests" */;
 			buildPhases = (
+				D4239AF114A2CA71AEF3E100 /* [CP] Check Pods Manifest.lock */,
 				FC2B0FD91E68EB3A006CE4C1 /* Sources */,
 				FC2B0FDA1E68EB3A006CE4C1 /* Frameworks */,
 				FC2B0FDB1E68EB3A006CE4C1 /* Resources */,
+				4AA9500EA162E23DCB1C967F /* [CP] Embed Pods Frameworks */,
+				9A7031B6D9F623B0507D4ED5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -653,7 +680,7 @@
 				FCB0E2D51E9577F0009E8FC8 /* Livingroom.png in Resources */,
 				FC2B0FFC1E690784006CE4C1 /* logo.png in Resources */,
 				FC2B0FC71E68EB39006CE4C1 /* Main.storyboard in Resources */,
-				A38C10471EB41C0700920E06 /* GoogleService-Info.plist in Resources */,
+				A3FAF8AF1EB855640021C013 /* GoogleService-Info.plist in Resources */,
 				FCB0E2E01E9577F0009E8FC8 /* Romance.png in Resources */,
 				FCB0E2EA1E9577F0009E8FC8 /* WDress.png in Resources */,
 				FCB0E2C11E9577F0009E8FC8 /* Bags.png in Resources */,
@@ -741,6 +768,66 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		4AA9500EA162E23DCB1C967F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneMans TreasureUITests/Pods-OneMans TreasureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A956AF147832098F996B113 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneMans TreasureTests/Pods-OneMans TreasureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7031B6D9F623B0507D4ED5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneMans TreasureUITests/Pods-OneMans TreasureUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5B74ADEC34924C094EF38A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		BB757B16A7246C926D9F4EB7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -754,6 +841,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneMans Treasure/Pods-OneMans Treasure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4239AF114A2CA71AEF3E100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F2B42DFF1B259708D4A84352 /* [CP] Copy Pods Resources */ = {
@@ -771,6 +873,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneMans Treasure/Pods-OneMans Treasure-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FB0CF0C9B3D7D5150D9E94AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneMans TreasureTests/Pods-OneMans TreasureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -784,6 +901,7 @@
 				FCB5CF4D1EB01C0800326A31 /* AccessJewController.m in Sources */,
 				FCB5CF471EB01A9900326A31 /* BookController.m in Sources */,
 				FC2B0FC41E68EB39006CE4C1 /* ViewController.m in Sources */,
+				A3FAF8B21EB856230021C013 /* UIViewController+Alerts.m in Sources */,
 				FC5DE1761E95E8F300017751 /* cameraController.m in Sources */,
 				FC2B10051E690B66006CE4C1 /* SignUp.m in Sources */,
 				FC2B0FC11E68EB39006CE4C1 /* AppDelegate.m in Sources */,
@@ -990,6 +1108,7 @@
 		};
 		FC2B0FEA1E68EB3A006CE4C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D5F5D48D59533D070E90AB /* Pods-OneMans TreasureTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;
@@ -1003,6 +1122,7 @@
 		};
 		FC2B0FEB1E68EB3A006CE4C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E261992F7A953AADAE97207E /* Pods-OneMans TreasureTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;
@@ -1016,6 +1136,7 @@
 		};
 		FC2B0FED1E68EB3A006CE4C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26652A139074970FA045241 /* Pods-OneMans TreasureUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;
@@ -1032,6 +1153,7 @@
 		};
 		FC2B0FEE1E68EB3A006CE4C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F9847948DB91F3172A4076 /* Pods-OneMans TreasureUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9RBFBK3B3S;

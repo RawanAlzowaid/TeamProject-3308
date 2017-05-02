@@ -8,7 +8,7 @@
 
 #import "LogInViewController.h"
 #import "UIViewController+Alerts.h"
-@import Firebase
+#import <Firebase/Firebase.h>
 
 @interface LogInViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *emailField;

@@ -1198,7 +1198,6 @@
                                 </state>
                                 <connections>
                                     <action selector="didTapSignUp:" destination="BhT-f5-BgM" eventType="touchUpInside" id="Bj3-rf-Q3k"/>
-                                    <segue destination="JMv-gc-WRY" kind="presentation" id="L7J-w1-mcz"/>
                                 </connections>
                             </button>
                         </subviews>
