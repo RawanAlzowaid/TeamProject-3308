@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Firebase/Firebase.h>
 
 @interface SignUp : UIViewController
-
+@property (strong, nonatomic) FIRDatabaseReference *ref;
 @end
