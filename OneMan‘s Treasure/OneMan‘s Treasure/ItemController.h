@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Firebase/Firebase.h>
 
 @interface ItemController : UIViewController
+@property (strong, nonatomic) FIRDatabaseReference *ref;
 
 @end

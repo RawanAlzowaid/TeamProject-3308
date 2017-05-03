@@ -90,57 +90,6 @@
     
 }
 
-- (IBAction)didTapSignUp:(id)sender {
-    [self showTextInputPromptWithMessage:@"Email:"
-            completionBlock:^(BOOL userPressedOK, NSString *_Nullable email) {
-                if (!userPressedOK || !email.length) {
-                    return;
-                }
-                [self showTextInputPromptWithMessage:@"Password:"
-                    completionBlock:^(BOOL userPressedOK, NSString *_Nullable password) {
-                            if (!userPressedOK || !password.length) {
-                                return;
-                    }
-                    [self showTextInputPromptWithMessage:@"Username:"
-                        completionBlock:^(BOOL userPressedOK, NSString *_Nullable username) {
-                        if (!userPressedOK || !username.length) {
-                            return;
-                            }
-                            [self showSpinner:^{
-                                [[FIRAuth auth] createUserWithEmail:email password:password
-                                    completion:^(FIRUser * _Nullable user, NSError * _Nullable error) {
-                                        [self hideSpinner:^{
-                                            if (error) {
-                                                [self showMessagePrompt:error.localizedDescription];
-                                                return;
-                                            }
-                                            }];
-                                            [self showSpinner:^{
-                                                FIRUserProfileChangeRequest *changeRequest =
-                                                     [[FIRAuth auth].currentUser profileChangeRequest];
-                                                            changeRequest.displayName = username;
-                                                            [changeRequest commitChangesWithCompletion:^(NSError *_Nullable error) {
-                                                                    [self hideSpinner:^{
-                                                                        if (error) {
-                                                                            [self showMessagePrompt:error.localizedDescription];
-                                                                            return;
-                                                                        }
-                                                                        // [START basic_write]
-                                                                        [[[_ref child:@"users"] child:user.uid]
-                                                                            setValue:@{@"username": username}];
-                                                                        // [END basic_write]
-                                                                         [self performSegueWithIdentifier:@"signIn" sender:nil];
-                                                                        }];
-                                                                    }];
-                                                                }];
-                                                            }];
-                                                        }];
-                                                    }];
-                                                }];
-                                            }];
-}
-
-
 #pragma mark - UITextFieldDelegate protocol methods
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [self didTapEmailLogin:nil];

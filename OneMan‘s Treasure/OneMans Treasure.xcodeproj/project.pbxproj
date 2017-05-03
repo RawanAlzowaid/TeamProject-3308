@@ -11,6 +11,9 @@
 		4E3170128433EB02C50BD8D4 /* Pods_OneMans_Treasure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17D70F91FCC4F3DDCEEC505 /* Pods_OneMans_Treasure.framework */; };
 		A3FAF8AF1EB855640021C013 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3FAF8AE1EB855640021C013 /* GoogleService-Info.plist */; };
 		A3FAF8B21EB856230021C013 /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8B11EB856230021C013 /* UIViewController+Alerts.m */; };
+		A3FAF8B41EB98FBA0021C013 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8B31EB98FBA0021C013 /* Item.m */; };
+		A3FAF8B81EB9AC6A0021C013 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8B71EB9AC6A0021C013 /* User.m */; };
+		A3FAF8BD1EB9B4040021C013 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FAF8BC1EB9B4040021C013 /* Launch Screen.storyboard */; };
 		A4B990CC67F0991B6C07A5F8 /* Pods_OneMans_TreasureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3538576458A6E7857426D135 /* Pods_OneMans_TreasureUITests.framework */; };
 		FC1AD3241E96B5A900541612 /* myTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1AD3231E96B5A900541612 /* myTest.m */; };
 		FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FBD1E68EB39006CE4C1 /* main.m */; };
@@ -18,7 +21,6 @@
 		FC2B0FC41E68EB39006CE4C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FC31E68EB39006CE4C1 /* ViewController.m */; };
 		FC2B0FC71E68EB39006CE4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FC51E68EB39006CE4C1 /* Main.storyboard */; };
 		FC2B0FC91E68EB39006CE4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FC81E68EB39006CE4C1 /* Assets.xcassets */; };
-		FC2B0FCC1E68EB39006CE4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FCA1E68EB39006CE4C1 /* LaunchScreen.storyboard */; };
 		FC2B0FD71E68EB3A006CE4C1 /* OneMan_s_TreasureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FD61E68EB3A006CE4C1 /* OneMan_s_TreasureTests.m */; };
 		FC2B0FE21E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FE11E68EB3A006CE4C1 /* OneMan_s_TreasureUITests.m */; };
 		FC2B0FF21E68FF19006CE4C1 /* Background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FF11E68FF19006CE4C1 /* Background1.jpg */; };
@@ -140,6 +142,11 @@
 		A3FAF8AE1EB855640021C013 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A3FAF8B01EB856230021C013 /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = SOURCE_ROOT; };
 		A3FAF8B11EB856230021C013 /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alerts.m"; sourceTree = SOURCE_ROOT; };
+		A3FAF8B31EB98FBA0021C013 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		A3FAF8B61EB9AC6A0021C013 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A3FAF8B71EB9AC6A0021C013 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		A3FAF8B91EB9AD600021C013 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		A3FAF8BC1EB9B4040021C013 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "OneMan‘s Treasure/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B26652A139074970FA045241 /* Pods-OneMans TreasureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureUITests/Pods-OneMans TreasureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E261992F7A953AADAE97207E /* Pods-OneMans TreasureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureTests/Pods-OneMans TreasureTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC1AD3231E96B5A900541612 /* myTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTest.m; sourceTree = "<group>"; };
@@ -151,7 +158,6 @@
 		FC2B0FC31E68EB39006CE4C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC2B0FC61E68EB39006CE4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC2B0FC81E68EB39006CE4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC2B0FCB1E68EB39006CE4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC2B0FCD1E68EB39006CE4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC2B0FD21E68EB3A006CE4C1 /* OneMans TreasureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneMans TreasureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2B0FD61E68EB3A006CE4C1 /* OneMan_s_TreasureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneMan_s_TreasureTests.m; sourceTree = "<group>"; };
@@ -319,6 +325,7 @@
 		FC2B0FB01E68EB39006CE4C1 = {
 			isa = PBXGroup;
 			children = (
+				A3FAF8BC1EB9B4040021C013 /* Launch Screen.storyboard */,
 				FC2B0FBB1E68EB39006CE4C1 /* OneMan‘s Treasure */,
 				FC2B0FD51E68EB3A006CE4C1 /* OneMan‘s TreasureTests */,
 				FC2B0FE01E68EB3A006CE4C1 /* OneMan‘s TreasureUITests */,
@@ -351,7 +358,6 @@
 				FC2B0FC31E68EB39006CE4C1 /* ViewController.m */,
 				FC2B0FC51E68EB39006CE4C1 /* Main.storyboard */,
 				FC2B0FC81E68EB39006CE4C1 /* Assets.xcassets */,
-				FC2B0FCA1E68EB39006CE4C1 /* LaunchScreen.storyboard */,
 				A3FAF8AE1EB855640021C013 /* GoogleService-Info.plist */,
 				FC2B0FCD1E68EB39006CE4C1 /* Info.plist */,
 				FC2B0FBC1E68EB39006CE4C1 /* Supporting Files */,
@@ -363,6 +369,10 @@
 				FC41C5A41EA4A295005473DA /* Category.m */,
 				FCB5CF631EB0396C00326A31 /* ItemController.h */,
 				FCB5CF641EB0396C00326A31 /* ItemController.m */,
+				A3FAF8B91EB9AD600021C013 /* Item.h */,
+				A3FAF8B31EB98FBA0021C013 /* Item.m */,
+				A3FAF8B61EB9AC6A0021C013 /* User.h */,
+				A3FAF8B71EB9AC6A0021C013 /* User.m */,
 				FCB5CF451EB01A9900326A31 /* BookController.h */,
 				FCB5CF461EB01A9900326A31 /* BookController.m */,
 				FCB5CF481EB01B6500326A31 /* FurnitureController.h */,
@@ -653,7 +663,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCB0E2F11E958642009E8FC8 /* Makeup.png in Resources */,
-				FC2B0FCC1E68EB39006CE4C1 /* LaunchScreen.storyboard in Resources */,
 				FCB0E2EF1E958580009E8FC8 /* Watches.png in Resources */,
 				FCB0E2CA1E9577F0009E8FC8 /* Earrings.png in Resources */,
 				FC2B0FC91E68EB39006CE4C1 /* Assets.xcassets in Resources */,
@@ -672,6 +681,7 @@
 				FCB0E2BC1E9577F0009E8FC8 /* BabyBottom.png in Resources */,
 				FCB0E2D61E9577F0009E8FC8 /* Mbottoms.png in Resources */,
 				FCB5CF611EB022AA00326A31 /* playsets.png in Resources */,
+				A3FAF8BD1EB9B4040021C013 /* Launch Screen.storyboard in Resources */,
 				FCB5CF5D1EB022AA00326A31 /* actionFigures.png in Resources */,
 				FCB0E2D31E9577F0009E8FC8 /* Labtops.png in Resources */,
 				FCB0E2CF1E9577F0009E8FC8 /* Headware.png in Resources */,
@@ -895,9 +905,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FAF8B41EB98FBA0021C013 /* Item.m in Sources */,
 				FCB5CF651EB0396C00326A31 /* ItemController.m in Sources */,
 				FC41C5A51EA4A295005473DA /* Category.m in Sources */,
 				FC2B0FFF1E690A94006CE4C1 /* LogInViewController.m in Sources */,
+				A3FAF8B81EB9AC6A0021C013 /* User.m in Sources */,
 				FCB5CF4D1EB01C0800326A31 /* AccessJewController.m in Sources */,
 				FCB5CF471EB01A9900326A31 /* BookController.m in Sources */,
 				FC2B0FC41E68EB39006CE4C1 /* ViewController.m in Sources */,
@@ -979,14 +991,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FC2B0FCA1E68EB39006CE4C1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC2B0FCB1E68EB39006CE4C1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -994,6 +998,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1041,6 +1046,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
