@@ -10,6 +10,7 @@
 #import <Firebase/Firebase.h>
 #import "Item.h"
 #import "User.h"
+#import "UIViewController+Alerts.h"
 
 @interface ItemController ()
 @property (weak, nonatomic) IBOutlet UITextField *itemField;
@@ -55,6 +56,7 @@
         NSLog(@"%@", error.localizedDescription);
     }];
     // [END single_value_read]
+    [self showMessagePrompt:@"Item Posted Successfully"];
 }
 
 - (void)addItem:(NSString *)userID item:(NSString *)item description:(NSString *)description retrieve:(NSString *)retrieve {

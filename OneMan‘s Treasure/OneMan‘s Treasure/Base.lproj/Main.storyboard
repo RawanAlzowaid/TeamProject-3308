@@ -445,7 +445,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hug-UL-DK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="295" y="-2194"/>
+            <point key="canvasLocation" x="198" y="-1692"/>
         </scene>
         <!--Item Controller-->
         <scene sceneID="h1W-zf-ddu">
@@ -521,7 +521,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="didTapShare:" destination="UXd-bh-S99" eventType="touchUpInside" id="uy7-Ex-0AK"/>
                                     <action selector="postButtonTouched:" destination="UXd-bh-S99" eventType="touchUpInside" id="ITs-cJ-xyA"/>
                                 </connections>
                             </button>
@@ -544,7 +543,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pe3-yi-mc7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1060" y="-2194.4527736131936"/>
+            <point key="canvasLocation" x="1180" y="-1692"/>
         </scene>
         <!--Electronic Controller-->
         <scene sceneID="Zv2-oA-wXY">
@@ -912,7 +911,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="3U7-A9-LJH"/>
+                                    <action selector="backButtonTouched:" destination="lOg-BI-hQK" eventType="touchUpInside" id="fPI-E2-0yk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suz-K5-dKI">
@@ -1101,6 +1100,14 @@
                                 <state key="normal" title="Sign Out"/>
                                 <connections>
                                     <action selector="signOutButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wOg-zT-TRT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dni-tc-3Lj">
+                                <rect key="frame" x="210" y="492" width="92" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="List Item Test"/>
+                                <connections>
+                                    <segue destination="UXd-bh-S99" kind="presentation" id="6yM-4I-0Kq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1427,6 +1434,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="NRs-Du-VGf"/>
-        <segue reference="CG2-pe-aJW"/>
+        <segue reference="6yM-4I-0Kq"/>
     </inferredMetricsTieBreakers>
 </document>
