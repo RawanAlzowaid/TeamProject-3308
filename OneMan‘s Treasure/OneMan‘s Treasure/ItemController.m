@@ -56,26 +56,42 @@
         NSLog(@"%@", error.localizedDescription);
     }];
     // [END single_value_read]
-    [self showMessagePrompt:@"Item Posted Successfully"];
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@""
+                                  message:@"Item Posted Successfully."
+                                  preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* ok = [UIAlertAction
+                         actionWithTitle:@"OK"
+                         style:UIAlertActionStyleDefault
+                         handler:^(UIAlertAction * action)
+                         {
+                             [_itemField setText:@""];
+                             [_descriptionField setText:@""];
+                             [_retrieveField setText:@""];
+                         }];
+    [alert addAction:ok];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 - (void)addItem:(NSString *)userID item:(NSString *)item description:(NSString *)description retrieve:(NSString *)retrieve {
-    // Create new post at /user-posts/$userid/$postid and at
-    // /posts/$postid simultaneously
+    // Create new post at /item-post/$userid/$item and at
+    // /item/$postid simultaneously
     // [START write_fan_out]
     NSString *key = [[_ref child:@"items"] childByAutoId].key;
     NSDictionary *post = @{@"uid": userID,
                            @"item": item,
                            @"description": description,
                            @"retrieve": retrieve};
-    NSDictionary *childUpdates = @{[@"/posts/" stringByAppendingString:key]: item,
-                                   [NSString stringWithFormat:@"/user-posts/%@/%@/", userID, key]: post};
+    NSDictionary *childUpdates = @{[@"/items/" stringByAppendingString:key]: item,
+                                   [NSString stringWithFormat:@"/item-postings/%@/%@/", userID, key]: post};
     [_ref updateChildValues:childUpdates];
     // [END write_fan_out]
 }
 
-
-
+- (IBAction)backButtonTouched:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 /*
