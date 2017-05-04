@@ -22,6 +22,7 @@
     [super viewDidLoad];
     
 }
+
 - (IBAction)launchCamera:(id)sender {
     //Set white status bar
     [self setNeedsStatusBarAppearanceUpdate];
