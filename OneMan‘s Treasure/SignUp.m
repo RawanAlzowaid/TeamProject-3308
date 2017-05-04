@@ -21,6 +21,10 @@
 
 @implementation SignUp
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.view endEditing:YES];
+}
+
 - (void)viewDidAppear:(BOOL)animated {
     _ref = [[FIRDatabase database] reference];
 }
