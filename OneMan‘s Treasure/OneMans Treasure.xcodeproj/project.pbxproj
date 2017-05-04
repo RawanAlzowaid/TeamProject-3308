@@ -14,6 +14,18 @@
 		A3FAF8B41EB98FBA0021C013 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8B31EB98FBA0021C013 /* Item.m */; };
 		A3FAF8B81EB9AC6A0021C013 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8B71EB9AC6A0021C013 /* User.m */; };
 		A3FAF8BD1EB9B4040021C013 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FAF8BC1EB9B4040021C013 /* Launch Screen.storyboard */; };
+		A3FAF8C91EBAD7800021C013 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8C81EBAD7800021C013 /* CameraViewController.m */; };
+		A3FAF8CC1EBADE030021C013 /* CameraSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8CB1EBADE030021C013 /* CameraSessionView.m */; };
+		A3FAF8D91EBADF0A0021C013 /* CameraDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8CE1EBADF0A0021C013 /* CameraDismissButton.m */; };
+		A3FAF8DA1EBADF0A0021C013 /* CameraFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8D01EBADF0A0021C013 /* CameraFlashButton.m */; };
+		A3FAF8DB1EBADF0A0021C013 /* CameraFocalReticule.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8D21EBADF0A0021C013 /* CameraFocalReticule.m */; };
+		A3FAF8DC1EBADF0A0021C013 /* CameraShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8D41EBADF0A0021C013 /* CameraShutterButton.m */; };
+		A3FAF8DD1EBADF0A0021C013 /* CameraToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8D61EBADF0A0021C013 /* CameraToggleButton.m */; };
+		A3FAF8DE1EBADF0A0021C013 /* LaunchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8D81EBADF0A0021C013 /* LaunchCameraButton.m */; };
+		A3FAF8E31EBADFAE0021C013 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8E01EBADFAE0021C013 /* CaptureSessionManager.m */; };
+		A3FAF8E41EBADFAE0021C013 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8E21EBADFAE0021C013 /* Constants.m */; };
+		A3FAF8E71EBAE0EC0021C013 /* CameraStyleKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8E61EBAE0EC0021C013 /* CameraStyleKitClass.m */; };
+		A3FAF8EF1EBAF24A0021C013 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8EE1EBAF24A0021C013 /* LogInViewController.m */; };
 		A4B990CC67F0991B6C07A5F8 /* Pods_OneMans_TreasureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3538576458A6E7857426D135 /* Pods_OneMans_TreasureUITests.framework */; };
 		FC1AD3241E96B5A900541612 /* myTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1AD3231E96B5A900541612 /* myTest.m */; };
 		FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FBD1E68EB39006CE4C1 /* main.m */; };
@@ -28,7 +40,6 @@
 		FC2B0FF61E6901F4006CE4C1 /* Picture1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FF51E6901F4006CE4C1 /* Picture1.png */; };
 		FC2B0FF81E690347006CE4C1 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FF71E690347006CE4C1 /* Back.png */; };
 		FC2B0FFC1E690784006CE4C1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B0FFB1E690784006CE4C1 /* logo.png */; };
-		FC2B0FFF1E690A94006CE4C1 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FFE1E690A94006CE4C1 /* LogInViewController.m */; };
 		FC2B10051E690B66006CE4C1 /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B10041E690B66006CE4C1 /* SignUp.m */; };
 		FC41C5A51EA4A295005473DA /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = FC41C5A41EA4A295005473DA /* Category.m */; };
 		FC5DE1761E95E8F300017751 /* cameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5DE1751E95E8F300017751 /* cameraController.m */; };
@@ -147,6 +158,30 @@
 		A3FAF8B71EB9AC6A0021C013 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		A3FAF8B91EB9AD600021C013 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		A3FAF8BC1EB9B4040021C013 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "OneMan‘s Treasure/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A3FAF8C71EBAD7800021C013 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = Pods/../CameraViewController.h; sourceTree = SOURCE_ROOT; };
+		A3FAF8C81EBAD7800021C013 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = Pods/../CameraViewController.m; sourceTree = SOURCE_ROOT; };
+		A3FAF8CA1EBADE030021C013 /* CameraSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraSessionView.h; sourceTree = "<group>"; };
+		A3FAF8CB1EBADE030021C013 /* CameraSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraSessionView.m; sourceTree = "<group>"; };
+		A3FAF8CD1EBADF0A0021C013 /* CameraDismissButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraDismissButton.h; path = CameraUI/CameraDismissButton.h; sourceTree = "<group>"; };
+		A3FAF8CE1EBADF0A0021C013 /* CameraDismissButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraDismissButton.m; path = CameraUI/CameraDismissButton.m; sourceTree = "<group>"; };
+		A3FAF8CF1EBADF0A0021C013 /* CameraFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraFlashButton.h; path = CameraUI/CameraFlashButton.h; sourceTree = "<group>"; };
+		A3FAF8D01EBADF0A0021C013 /* CameraFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraFlashButton.m; path = CameraUI/CameraFlashButton.m; sourceTree = "<group>"; };
+		A3FAF8D11EBADF0A0021C013 /* CameraFocalReticule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraFocalReticule.h; path = CameraUI/CameraFocalReticule.h; sourceTree = "<group>"; };
+		A3FAF8D21EBADF0A0021C013 /* CameraFocalReticule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraFocalReticule.m; path = CameraUI/CameraFocalReticule.m; sourceTree = "<group>"; };
+		A3FAF8D31EBADF0A0021C013 /* CameraShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraShutterButton.h; path = CameraUI/CameraShutterButton.h; sourceTree = "<group>"; };
+		A3FAF8D41EBADF0A0021C013 /* CameraShutterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraShutterButton.m; path = CameraUI/CameraShutterButton.m; sourceTree = "<group>"; };
+		A3FAF8D51EBADF0A0021C013 /* CameraToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraToggleButton.h; path = CameraUI/CameraToggleButton.h; sourceTree = "<group>"; };
+		A3FAF8D61EBADF0A0021C013 /* CameraToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraToggleButton.m; path = CameraUI/CameraToggleButton.m; sourceTree = "<group>"; };
+		A3FAF8D71EBADF0A0021C013 /* LaunchCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaunchCameraButton.h; path = CameraUI/LaunchCameraButton.h; sourceTree = "<group>"; };
+		A3FAF8D81EBADF0A0021C013 /* LaunchCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaunchCameraButton.m; path = CameraUI/LaunchCameraButton.m; sourceTree = "<group>"; };
+		A3FAF8DF1EBADFAE0021C013 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureSessionManager.h; path = CameraMod/CaptureSessionManager.h; sourceTree = "<group>"; };
+		A3FAF8E01EBADFAE0021C013 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureSessionManager.m; path = CameraMod/CaptureSessionManager.m; sourceTree = "<group>"; };
+		A3FAF8E11EBADFAE0021C013 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = CameraMod/Constants.h; sourceTree = "<group>"; };
+		A3FAF8E21EBADFAE0021C013 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = CameraMod/Constants.m; sourceTree = "<group>"; };
+		A3FAF8E51EBAE0EC0021C013 /* CameraStyleKitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraStyleKitClass.h; path = CameraUI/CameraStyleKitClass.h; sourceTree = "<group>"; };
+		A3FAF8E61EBAE0EC0021C013 /* CameraStyleKitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraStyleKitClass.m; path = CameraUI/CameraStyleKitClass.m; sourceTree = "<group>"; };
+		A3FAF8E81EBAE4C70021C013 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Item.h; path = ../Item.h; sourceTree = "<group>"; };
+		A3FAF8EE1EBAF24A0021C013 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		B26652A139074970FA045241 /* Pods-OneMans TreasureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureUITests/Pods-OneMans TreasureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E261992F7A953AADAE97207E /* Pods-OneMans TreasureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureTests/Pods-OneMans TreasureTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC1AD3231E96B5A900541612 /* myTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTest.m; sourceTree = "<group>"; };
@@ -171,7 +206,6 @@
 		FC2B0FF71E690347006CE4C1 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
 		FC2B0FFB1E690784006CE4C1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FC2B0FFD1E690A94006CE4C1 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
-		FC2B0FFE1E690A94006CE4C1 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		FC2B10031E690B66006CE4C1 /* SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUp.h; path = ../SignUp.h; sourceTree = "<group>"; };
 		FC2B10041E690B66006CE4C1 /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUp.m; path = ../SignUp.m; sourceTree = "<group>"; };
 		FC41C5A31EA4A295005473DA /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
@@ -362,7 +396,8 @@
 				FC2B0FCD1E68EB39006CE4C1 /* Info.plist */,
 				FC2B0FBC1E68EB39006CE4C1 /* Supporting Files */,
 				FC2B0FFD1E690A94006CE4C1 /* LogInViewController.h */,
-				FC2B0FFE1E690A94006CE4C1 /* LogInViewController.m */,
+				A3FAF8EE1EBAF24A0021C013 /* LogInViewController.m */,
+				A3FAF8E81EBAE4C70021C013 /* Item.h */,
 				FC2B10031E690B66006CE4C1 /* SignUp.h */,
 				FC2B10041E690B66006CE4C1 /* SignUp.m */,
 				FC41C5A31EA4A295005473DA /* Category.h */,
@@ -388,6 +423,10 @@
 				FCB5CF541EB01D6E00326A31 /* TorGameController.h */,
 				FCB5CF551EB01D6E00326A31 /* TorGameController.m */,
 				FC5DE1741E95E8F300017751 /* cameraController.h */,
+				A3FAF8C71EBAD7800021C013 /* CameraViewController.h */,
+				A3FAF8CA1EBADE030021C013 /* CameraSessionView.h */,
+				A3FAF8CB1EBADE030021C013 /* CameraSessionView.m */,
+				A3FAF8C81EBAD7800021C013 /* CameraViewController.m */,
 				FC5DE1751E95E8F300017751 /* cameraController.m */,
 			);
 			path = "OneMan‘s Treasure";
@@ -397,10 +436,16 @@
 			isa = PBXGroup;
 			children = (
 				FCB5CF571EB022AA00326A31 /* actionFigures.png */,
+				A3FAF8E51EBAE0EC0021C013 /* CameraStyleKitClass.h */,
+				A3FAF8E61EBAE0EC0021C013 /* CameraStyleKitClass.m */,
 				FCB5CF581EB022AA00326A31 /* cars.png */,
 				FCB5CF591EB022AA00326A31 /* dolls.png */,
 				FCB5CF5A1EB022AA00326A31 /* Games.png */,
 				FCB5CF5B1EB022AA00326A31 /* playsets.png */,
+				A3FAF8DF1EBADFAE0021C013 /* CaptureSessionManager.h */,
+				A3FAF8E01EBADFAE0021C013 /* CaptureSessionManager.m */,
+				A3FAF8E11EBADFAE0021C013 /* Constants.h */,
+				A3FAF8E21EBADFAE0021C013 /* Constants.m */,
 				FCB5CF5C1EB022AA00326A31 /* plush.png */,
 				FCB0E2861E9577F0009E8FC8 /* Accessories.png */,
 				FCB0E2871E9577F0009E8FC8 /* Arts.png */,
@@ -434,6 +479,18 @@
 				FCB0E2A31E9577F0009E8FC8 /* Men.png */,
 				FCB0E2A41E9577F0009E8FC8 /* MShoes.png */,
 				FCB0E2A51E9577F0009E8FC8 /* MTops.png */,
+				A3FAF8CD1EBADF0A0021C013 /* CameraDismissButton.h */,
+				A3FAF8CE1EBADF0A0021C013 /* CameraDismissButton.m */,
+				A3FAF8CF1EBADF0A0021C013 /* CameraFlashButton.h */,
+				A3FAF8D01EBADF0A0021C013 /* CameraFlashButton.m */,
+				A3FAF8D11EBADF0A0021C013 /* CameraFocalReticule.h */,
+				A3FAF8D21EBADF0A0021C013 /* CameraFocalReticule.m */,
+				A3FAF8D31EBADF0A0021C013 /* CameraShutterButton.h */,
+				A3FAF8D41EBADF0A0021C013 /* CameraShutterButton.m */,
+				A3FAF8D51EBADF0A0021C013 /* CameraToggleButton.h */,
+				A3FAF8D61EBADF0A0021C013 /* CameraToggleButton.m */,
+				A3FAF8D71EBADF0A0021C013 /* LaunchCameraButton.h */,
+				A3FAF8D81EBADF0A0021C013 /* LaunchCameraButton.m */,
 				FCB0E2A61E9577F0009E8FC8 /* Mystery.png */,
 				FCB0E2A71E9577F0009E8FC8 /* Necklace.png */,
 				FCB0E2A81E9577F0009E8FC8 /* Pets_supplies.png */,
@@ -905,23 +962,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FAF8EF1EBAF24A0021C013 /* LogInViewController.m in Sources */,
 				A3FAF8B41EB98FBA0021C013 /* Item.m in Sources */,
 				FCB5CF651EB0396C00326A31 /* ItemController.m in Sources */,
 				FC41C5A51EA4A295005473DA /* Category.m in Sources */,
-				FC2B0FFF1E690A94006CE4C1 /* LogInViewController.m in Sources */,
+				A3FAF8DE1EBADF0A0021C013 /* LaunchCameraButton.m in Sources */,
 				A3FAF8B81EB9AC6A0021C013 /* User.m in Sources */,
+				A3FAF8CC1EBADE030021C013 /* CameraSessionView.m in Sources */,
+				A3FAF8DD1EBADF0A0021C013 /* CameraToggleButton.m in Sources */,
 				FCB5CF4D1EB01C0800326A31 /* AccessJewController.m in Sources */,
+				A3FAF8E31EBADFAE0021C013 /* CaptureSessionManager.m in Sources */,
 				FCB5CF471EB01A9900326A31 /* BookController.m in Sources */,
 				FC2B0FC41E68EB39006CE4C1 /* ViewController.m in Sources */,
+				A3FAF8DA1EBADF0A0021C013 /* CameraFlashButton.m in Sources */,
 				A3FAF8B21EB856230021C013 /* UIViewController+Alerts.m in Sources */,
 				FC5DE1761E95E8F300017751 /* cameraController.m in Sources */,
 				FC2B10051E690B66006CE4C1 /* SignUp.m in Sources */,
+				A3FAF8E71EBAE0EC0021C013 /* CameraStyleKitClass.m in Sources */,
+				A3FAF8DB1EBADF0A0021C013 /* CameraFocalReticule.m in Sources */,
 				FC2B0FC11E68EB39006CE4C1 /* AppDelegate.m in Sources */,
+				A3FAF8D91EBADF0A0021C013 /* CameraDismissButton.m in Sources */,
 				FCB5CF531EB01D3000326A31 /* ClothesController.m in Sources */,
 				FCB5CF561EB01D6E00326A31 /* TorGameController.m in Sources */,
 				FCB5CF4A1EB01B6500326A31 /* FurnitureController.m in Sources */,
+				A3FAF8C91EBAD7800021C013 /* CameraViewController.m in Sources */,
+				A3FAF8DC1EBADF0A0021C013 /* CameraShutterButton.m in Sources */,
 				FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */,
 				FCB5CF501EB01C9700326A31 /* ElectronicController.m in Sources */,
+				A3FAF8E41EBADFAE0021C013 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,8 +17,8 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 - (IBAction)takePhoto:  (UIButton *)sender;
 - (IBAction)selectPhoto:(UIButton *)sender;
-
 @end
+/*
 @implementation cameraController
 
 - (void)takePhoto {
@@ -65,8 +65,8 @@
 
 @end
 
-
-/*@implementation cameraController
+*/
+@implementation cameraController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -91,9 +91,9 @@ AVCaptureStillImageOutput *StillImageOutput;
     [previewlayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
     CALayer *rootLayer = [[self view] layer];
     [rootLayer setMasksToBounds:YES];
-    CGRect frame = self.frameforCapture.frame;
+    //CGRect frame = self.frameforCapture.frame;
     
-    [previewlayer setFrame:frame];
+    //[previewlayer setFrame:frame];
     
     [rootLayer insertSublayer:previewlayer atIndex:0];
     
@@ -110,8 +110,9 @@ AVCaptureStillImageOutput *StillImageOutput;
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}*/
+}
 
+@end
 /*
 #pragma mark - Navigation
 
