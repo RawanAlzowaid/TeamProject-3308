@@ -58,12 +58,6 @@
     [self showSpinner:^{
         [[FIRAuth auth] createUserWithEmail:_emailField.text password:_passwordField.text
                                  completion:^(FIRUser * _Nullable user, NSError * _Nullable error) {
-                                     [self hideSpinner:^{
-                                         if (error) {
-                                             [self showMessagePrompt:error.localizedDescription];
-                                             return;
-                                         }
-                                     }];
                                      [self showSpinner:^{
                                          FIRUserProfileChangeRequest *changeRequest =
                                          [[FIRAuth auth].currentUser profileChangeRequest];
@@ -78,6 +72,7 @@
                                                  [[[_ref child:@"users"] child:user.uid]
                                                   setValue:@{@"username": _usernameField.text}];
                                                  // [END basic_write]
+                                                 [self addDomain:_emailField.text];
                                                  [self dismissViewControllerAnimated:YES completion:nil];
                                              }];
                                          }];
@@ -86,10 +81,28 @@
                                  }];
     }];
     }
-    else
-    {
+    else {
         [self showMessagePrompt:@"Username, Password, and Email Required"];
     }
+    
+}
+
+- (NSString *) validateEmail: (NSString *) candidate {
+    if([candidate hasSuffix:@".edu"]){
+        NSString *schoolAndDomain = [candidate componentsSeparatedByString:(@"@")][1];
+        return [schoolAndDomain componentsSeparatedByString:(@".")][0];
+    }
+    else {
+        return @"NONE";
+    }
+}
+
+- (void)addDomain:(NSString *)email {
+    NSString *domain = [self validateEmail:email];
+    NSString *key = [[_ref child:@"domain"] childByAutoId].key;
+    NSDictionary *childUpdates = @{[@"/domains/" stringByAppendingString:key]: domain};
+    [_ref updateChildValues:childUpdates];
+    // [END write_fan_out]
 }
 
 @end
