@@ -40,6 +40,11 @@
 }
 
 
+/**
+ User wants to post item, we take in the details from the text fields on the view, get their location, and load the image and store in database as item.
+
+ @param sender touch signal
+ */
 - (IBAction)postButtonTouched:(id)sender {
     // [START single_value_read]
     NSString *userID = [FIRAuth auth].currentUser.uid;
@@ -107,6 +112,12 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+/**
+ Launches Camera if User Wants to Take a Picture of the Item
+
+ @param sender touch signal
+ */
 - (IBAction)launchCamera:(id)sender {
     //Set white status bar
     [self setNeedsStatusBarAppearanceUpdate];

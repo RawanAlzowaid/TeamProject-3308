@@ -24,21 +24,23 @@
     geocoder = [[CLGeocoder alloc] init];
 }
 
+/**
+ Gets the location of the user from the phone's gps
+
+ @param sender touch signal
+ */
 - (IBAction)doFetchCurrentLocation:(id)sender {
     locationFetchCounter = 0;
-    
-    // fetching current location start from here
     [locationManager requestWhenInUseAuthorization];
     [locationManager startUpdatingLocation];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
-    // this delegate method is constantly invoked every some miliseconds.
     // we only need to receive the first response, so we skip the others.
     if (locationFetchCounter > 0) return;
     locationFetchCounter++;
     
-    // after we have current coordinates, we use this method to fetch the information data of fetched coordinate
+    //  get location based on coords
     [geocoder reverseGeocodeLocation:[locations lastObject] completionHandler:^(NSArray *placemarks, NSError *error) {
         CLPlacemark *placemark = [placemarks lastObject];
         

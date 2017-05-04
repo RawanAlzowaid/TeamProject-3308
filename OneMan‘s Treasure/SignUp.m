@@ -44,15 +44,11 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-/*
-#pragma mark - Navigation
+/**
+ User wants to create a profile. We create a database user entry with their username, email, and password, firebase uses bCrypt to store passwords.
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ @param sender touch signal
+ */
 - (IBAction)pressedSignUpButton:(id)sender {
     bool usernameEntered = _usernameField.text && _usernameField.text.length > 0;
     bool passwordEntered = _passwordField.text && _passwordField.text.length > 0;
@@ -91,6 +87,12 @@
     
 }
 
+/**
+ strips the email address down to just the affiliated school name
+
+ @param candidate : possible email adress with school affiliation
+ @return the school name
+ */
 - (NSString *) validateEmail: (NSString *) candidate {
     if([candidate hasSuffix:@".edu"]){
         NSString *schoolAndDomain = [candidate componentsSeparatedByString:(@"@")][1];
@@ -101,6 +103,11 @@
     }
 }
 
+/**
+ adds the affiliated school to the database
+
+ @param email : email address with affiliated school
+ */
 - (void)addDomain:(NSString *)email {
     NSString *domain = [self validateEmail:email];
     NSString *key = [[_ref child:@"domain"] childByAutoId].key;

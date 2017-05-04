@@ -22,6 +22,11 @@
     [self.view endEditing:YES];
 }
 
+/**
+ If view appears and user logged in, moves to the main page
+
+ @param animated view appears
+ */
 - (void)viewDidAppear:(BOOL)animated {
     if ([FIRAuth auth].currentUser) {
         [self performSegueWithIdentifier:@"signIn" sender:nil];
@@ -40,6 +45,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+/**
+ User wants to log in. Checks the email and password in the text box to confirm user, or rejects and give error message.
+
+ @param sender touch signal
+ */
 - (IBAction)didTapEmailLogin:(id)sender {
     [self showSpinner:^{
         [[FIRAuth auth] signInWithEmail:_emailField.text
