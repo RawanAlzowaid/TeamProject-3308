@@ -13,6 +13,13 @@
 
 
 //@end
+    
+    
+    
+    
+    
+    
+    
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 - (IBAction)takePhoto:  (UIButton *)sender;
