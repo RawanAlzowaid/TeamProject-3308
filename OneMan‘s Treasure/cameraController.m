@@ -4,7 +4,7 @@
 //
 //  Created by 龚梦晨 on 4/5/17.
 //  Copyright © 2017 龚梦晨. All rights reserved.
-//
+//csci 3308
 
 #import "cameraController.h"
 
