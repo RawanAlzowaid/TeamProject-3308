@@ -25,6 +25,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)backButtonTouched:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 /*
 #pragma mark - Navigation
 

@@ -26,6 +26,7 @@
 		A3FAF8E71EBAE0EC0021C013 /* CameraStyleKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8E61EBAE0EC0021C013 /* CameraStyleKitClass.m */; };
 		A3FAF8EF1EBAF24A0021C013 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8EE1EBAF24A0021C013 /* LogInViewController.m */; };
 		A3FAF8F21EBBB5CA0021C013 /* GetLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8F11EBBB5CA0021C013 /* GetLocationController.m */; };
+		A3FAF8F81EBC57860021C013 /* ItemResultsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FAF8F71EBC57860021C013 /* ItemResultsCollectionViewController.m */; };
 		A4B990CC67F0991B6C07A5F8 /* Pods_OneMans_TreasureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3538576458A6E7857426D135 /* Pods_OneMans_TreasureUITests.framework */; };
 		FC1AD3241E96B5A900541612 /* myTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1AD3231E96B5A900541612 /* myTest.m */; };
 		FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B0FBD1E68EB39006CE4C1 /* main.m */; };
@@ -183,6 +184,8 @@
 		A3FAF8EE1EBAF24A0021C013 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		A3FAF8F01EBBB5CA0021C013 /* GetLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetLocationController.h; sourceTree = "<group>"; };
 		A3FAF8F11EBBB5CA0021C013 /* GetLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetLocationController.m; sourceTree = "<group>"; };
+		A3FAF8F61EBC57860021C013 /* ItemResultsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemResultsCollectionViewController.h; path = ../ItemResultsCollectionViewController.h; sourceTree = "<group>"; };
+		A3FAF8F71EBC57860021C013 /* ItemResultsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemResultsCollectionViewController.m; path = ../ItemResultsCollectionViewController.m; sourceTree = "<group>"; };
 		B26652A139074970FA045241 /* Pods-OneMans TreasureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureUITests/Pods-OneMans TreasureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E261992F7A953AADAE97207E /* Pods-OneMans TreasureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneMans TreasureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneMans TreasureTests/Pods-OneMans TreasureTests.release.xcconfig"; sourceTree = "<group>"; };
 		FC1AD3231E96B5A900541612 /* myTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTest.m; sourceTree = "<group>"; };
@@ -387,6 +390,8 @@
 		FC2B0FBB1E68EB39006CE4C1 /* OneMan‘s Treasure */ = {
 			isa = PBXGroup;
 			children = (
+				A3FAF8F61EBC57860021C013 /* ItemResultsCollectionViewController.h */,
+				A3FAF8F71EBC57860021C013 /* ItemResultsCollectionViewController.m */,
 				FC2B0FBF1E68EB39006CE4C1 /* AppDelegate.h */,
 				FC2B0FC01E68EB39006CE4C1 /* AppDelegate.m */,
 				FC2B0FC21E68EB39006CE4C1 /* ViewController.h */,
@@ -992,6 +997,7 @@
 				FC2B0FBE1E68EB39006CE4C1 /* main.m in Sources */,
 				FCB5CF501EB01C9700326A31 /* ElectronicController.m in Sources */,
 				A3FAF8E41EBADFAE0021C013 /* Constants.m in Sources */,
+				A3FAF8F81EBC57860021C013 /* ItemResultsCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

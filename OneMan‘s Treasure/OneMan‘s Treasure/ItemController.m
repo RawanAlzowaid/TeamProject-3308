@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *descriptionField;
 @property (weak, nonatomic) IBOutlet UITextView *retrieveField;
 @property (nonatomic, strong) CameraSessionView *cameraView;
+@property (weak, nonatomic) IBOutlet UIImageView *imagePreview;
 
 @end
 
@@ -78,6 +79,7 @@
                              [_itemField setText:@""];
                              [_descriptionField setText:@""];
                              [_retrieveField setText:@""];
+                             _imagePreview.image = nil;
                          }];
     [alert addAction:ok];
     [self presentViewController:alert animated:YES completion:nil];
@@ -93,7 +95,7 @@
                            @"description": description,
                            @"retrieve": retrieve};
     NSDictionary *childUpdates = @{[@"/items/" stringByAppendingString:key]: item,
-                                   [NSString stringWithFormat:@"/item-postings/%@/%@/", userID, key]: post};
+                                   [NSString stringWithFormat:@"/item-postings/%@/", key]: post};
     [_ref updateChildValues:childUpdates];
     // [END write_fan_out]
 }
@@ -137,10 +139,10 @@
     
     [self.view addSubview:_cameraView];
     
-    //____________________________Example Customization____________________________
-    //[_cameraView setTopBarColor:[UIColor colorWithRed:0.97 green:0.97 blue:0.97 alpha: 0.64]];
-    //[_cameraView hideFlashButton]; //On iPad flash is not present, hence it wont appear.
-    //[_cameraView hideCameraToggleButton];
+    //Customization
+    [_cameraView setTopBarColor:[UIColor colorWithRed:0 green:0 blue:0 alpha: 0]];
+    //[_cameraView hideFlashButton];
+    [_cameraView hideCameraToggleButton];
     //[_cameraView hideDismissButton];
 }
 
@@ -165,6 +167,33 @@
 
 - (BOOL)prefersStatusBarHidden {
     return YES;
+}
+
+- (IBAction)selectButtonTouched:(id)sender {
+    UIImagePickerController *imagePickerController = [[UIImagePickerController alloc]init];
+    imagePickerController.delegate = self;
+    imagePickerController.sourceType =  UIImagePickerControllerSourceTypePhotoLibrary;
+    [self presentViewController:imagePickerController animated:YES completion:nil];
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker
+        didFinishPickingImage:(UIImage *)image
+                  editingInfo:(NSDictionary *)editingInfo {
+    [picker dismissViewControllerAnimated:YES completion:nil];
+    _imagePreview.image = image;
+    [self.view addSubview:_imagePreview];
+    NSURL *path = [editingInfo valueForKey:UIImagePickerControllerReferenceURL];
+    FIRStorage *storage = [FIRStorage storage];
+    FIRStorageReference *storageRef = [storage reference];
+    FIRStorageReference *imageRef = [storageRef child:@"item-posts/item2.jpg"];
+    FIRStorageUploadTask *uploadTask = [imageRef putFile:path metadata:nil completion:^(FIRStorageMetadata *metadata, NSError *error) {
+        if (error != nil) {
+            // Uh-oh, an error occurred!
+        } else {
+            // Metadata contains file metadata such as size, content-type, and download URL.
+            NSURL *downloadURL = metadata.downloadURL;
+        }
+    }];
 }
 
 @end
